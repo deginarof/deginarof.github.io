@@ -6,12 +6,12 @@
     }
     header {
         background-color: rgb(37, 30, 70);
-        height: auto;
-        width: 240px;
+        height: 280px;
+        width: 505px;
         margin-right: 6px;
         margin-left: 6px;
         margin-top: 6px;
-        margin-bottom: 6px;
+        margin-bottom: 80px;
         padding-top: 15px;
     }
     h1 {
@@ -27,7 +27,8 @@
         width: 120px;
         padding-left: 3px;
         margin-left: 20px;
-        margin-bottom: 20px;
+        margin-top: 0px;
+        margin-bottom: 50px;
     }
     a {
         color: rgb(226, 45, 115);
@@ -107,8 +108,8 @@
     }
     footer {
         background-color: rgb(37, 30, 70);
-        height: 150px;
-        width: 580px;
+        height: 180px;
+        width: 505px;
         margin-right: 1px;
         margin-left: 1px;
         margin-top: 6px;

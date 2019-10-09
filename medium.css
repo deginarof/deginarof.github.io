@@ -1,0 +1,44 @@
+@media (min-width: 520px) {
+    body {
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+    header,
+    footer,
+    nav {
+        margin: 6px;
+        width: auto;
+        height: auto;
+        padding-bottom: 5px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    header,
+    footer {
+        border-radius: 10px;
+    }
+    img {
+        height: auto;
+        width: 100px;
+        margin-top: -13px;
+        margin-left: -15px;
+        box-shadow: 0 0 20px #444;
+    }
+    figure {
+        float: right;
+    }
+    p {
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+    #Update {
+        margin-bottom: 3px;
+    }
+}
+
+
+/* end of media query*

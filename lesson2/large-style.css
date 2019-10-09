@@ -1,0 +1,116 @@
+@media (min-width: 992px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 30px;
+    }
+    body {
+        margin-left: 185px;
+        margin-right: 185px;
+    }
+    header {
+        background-color: rgb(37, 30, 70);
+        height: 280px;
+        width: 968px;
+        padding-top: 2px;
+        margin: 4px;
+        margin-bottom: 40px;
+    }
+    h1 {
+        color: white;
+        font-family: 'Monoton', cursive, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+        font-size: 40px;
+        text-align: left;
+        padding-left: 20px;
+    }
+    nav {
+        background-color: rgb(245, 245, 96);
+        margin-left: 37px;
+        padding-left: 4px;
+        margin-bottom: 55px;
+    }
+    a {
+        text-align: center;
+        color: rgb(226, 45, 115);
+    }
+    h4 {
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+        font-size: 15px;
+        text-align: center;
+    }
+    h2 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+        text-align: left;
+        color: white;
+        font-size: 30px;
+        padding-left: 38px;
+    }
+    img {
+        margin-left: 27px;
+        width: 215px;
+    }
+    #item1 {
+        grid-row-end: span 1;
+        padding: 20px;
+        border: solid;
+        border-color: rgb(49, 132, 170);
+        margin-bottom: 20px;
+        background-color: rgb(193, 225, 240)
+    }
+    #item2 {
+        grid-row-end: span 2;
+        padding: 20px;
+        border: solid;
+        border-color: rgb(49, 132, 170);
+        margin-bottom: 20px;
+        background-color: rgb(193, 225, 240)
+    }
+    #item3 {
+        grid-row-end: span 3;
+        padding: 15px;
+        border: solid;
+        border-color: rgb(49, 132, 170);
+        margin-bottom: 20px;
+        background-color: rgb(193, 225, 240)
+    }
+    h3 {
+        font-family: 'Monoton', cursive, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+        color: rgb(37, 30, 70);
+        text-align: center;
+    }
+    h4 {
+        color: rgb(37, 30, 70);
+        font-size: 25px;
+        text-align: center;
+    }
+    h5 {
+        font-size: 22px;
+    }
+    p {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 30px;
+    }
+    #Update {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 5px;
+    }
+    footer {
+        background-color: rgb(37, 30, 70);
+        height: 180px;
+        width: 965px;
+        padding-top: 2px;
+        margin: 2px;
+        margin-bottom: 15px;
+    }
+}

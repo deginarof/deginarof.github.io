@@ -1,0 +1,114 @@
+@media (min-width: 600px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+    header {
+        background-color: rgb(37, 30, 70);
+        height: auto;
+        width: 240px;
+        margin-right: 6px;
+        margin-left: 6px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        padding-top: 15px;
+    }
+    h1 {
+        color: white;
+        font-family: 'Monoton', cursive, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+        font-size: 35px;
+        text-align: left;
+        margin-left: 20px;
+    }
+    nav {
+        background-color: rgb(245, 245, 96);
+        height: 60px;
+        width: 120px;
+        padding-left: 3px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    a {
+        color: rgb(226, 45, 115);
+        margin-top: 5px;
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+    h4 {
+        font-size: 20px;
+        text-align: left;
+    }
+    h2 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+        text-align: center;
+        color: white;
+        font-size: 25px;
+    }
+    img {
+        width: 150px;
+        margin-left: 40px;
+        vertical-align: middle;
+        box-shadow: 0 0 20px rgb(37, 30, 70);
+    }
+    #item1 {
+        grid-row-end: span 1;
+        padding: 5px;
+        border: none;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        background-color: rgb(193, 225, 240)
+    }
+    #item2 {
+        grid-row-end: span 1;
+        padding: 5px;
+        border: none;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        background-color: rgb(193, 225, 240)
+    }
+    #item3 {
+        grid-row-end: span 1;
+        padding: 5px;
+        border: none;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        background-color: rgb(193, 225, 240)
+    }
+    h3 {
+        color: rgb(37, 30, 70);
+        font-family: 'Monoton', cursive, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+        font-size: 30px;
+        text-align: center;
+    }
+    h4 {
+        text-align: center;
+    }
+    h5 {
+        text-align: left;
+        font-size: 20px;
+        padding: 20px;
+    }
+    p {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        text-align: center;
+        margin: 15px;
+        padding-top: 20px;
+    }
+    #Update {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    footer {
+        background-color: rgb(37, 30, 70);
+        height: 150px;
+        width: 580px;
+        margin-right: 1px;
+        margin-left: 1px;
+        margin-top: 6px;
+    }
+}

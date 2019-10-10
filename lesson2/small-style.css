@@ -12,10 +12,10 @@
         header {
             background-color: rgb(37, 30, 70);
             height: 120px;
-            width: 300px;
+            width: auto;
             margin-left: 4px;
             margin-top: 4px;
-            margin-bottom: 50px;
+            margin-bottom: 20px;
             padding-top: 4px;
             padding-left: 0px;
             padding-right: 0px;
@@ -33,7 +33,7 @@
             height: 20px;
             width: 120px;
             margin-top: 5px;
-            margin-bottom: 20px;
+            margin-bottom: 50px;
             margin-left: 5px;
         }
         
@@ -131,7 +131,7 @@
         
         footer {
             background-color: rgb(37, 30, 70);
-            width: 298px;
+            width: auto;
             margin-left: 1px;
             margin-top: 4px;
             padding-top: 4px;

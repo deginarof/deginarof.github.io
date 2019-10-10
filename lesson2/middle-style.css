@@ -7,11 +7,11 @@
     header {
         background-color: rgb(37, 30, 70);
         height: 280px;
-        width: 505px;
+        width: auto;
         margin-right: 6px;
         margin-left: 6px;
         margin-top: 6px;
-        margin-bottom: 80px;
+        margin-bottom: 20px;
         padding-top: 15px;
     }
     h1 {
@@ -109,7 +109,7 @@
     footer {
         background-color: rgb(37, 30, 70);
         height: 180px;
-        width: 505px;
+        width: auto;
         margin-right: 1px;
         margin-left: 1px;
         margin-top: 6px;

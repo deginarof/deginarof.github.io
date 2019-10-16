@@ -6,7 +6,7 @@ body {
 header,
 p,
 script,
-h4 {
+h2 {
     font-family: 'Big Shoulders Display', cursive;
 }
 
@@ -14,9 +14,18 @@ p {
     text-align: center;
 }
 
+h1 {
+    color: #ebd814;
+    text-shadow: 6px 2px rgb(114, 101, 5);
+}
+
 h1,
 ul {
     font-family: 'Racing Sans One', cursive;
+}
+
+h2 {
+    color: #d914eb;
 }
 
 header {

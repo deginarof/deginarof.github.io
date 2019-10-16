@@ -41,7 +41,8 @@ img {
 }
 
 nav {
-    margin: 5px;
+    margin: 0px;
+    margin-top: 10px;
 }
 
 nav button {

@@ -76,10 +76,27 @@ footer {
     box-shadow: 0 2px 15px gray;
 }
 
+h1 {
+    padding-left: 15px;
+}
+
+.box {
+    border: 1px solid #54bdb4;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
 footer {
     height: 100px;
     margin-bottom: 15px;
-    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: 2px;
+}
+
+.update {
+    font-family: 'Big Shoulders Display', cursive;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .clearfix:after {

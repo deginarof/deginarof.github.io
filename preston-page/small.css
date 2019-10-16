@@ -1,0 +1,89 @@
+body {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+header,
+p,
+script,
+h4 {
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p {
+    text-align: center;
+}
+
+h1,
+ul {
+    font-family: 'Racing Sans One', cursive;
+}
+
+header {
+    display: flex;
+}
+
+img {
+    width: 100px;
+    padding-right: 10px;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+nav {
+    margin: 5px;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul li .active a {
+    background-color: #408f88;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: #54bdb4;
+}
+
+main {
+    text-align: left;
+}
+
+nav,
+footer {
+    background-color: #8bf7ee;
+    box-shadow: 0 2px 15px gray;
+}
+
+footer {
+    height: 100px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

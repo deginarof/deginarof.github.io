@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="small.css" media="all">
     <link rel="stylesheet" type="text/css" href="middle.css" media="all">
     <link rel="stylesheet" type="text/css" href="large.css" media="all">
+    <script src="scripts.js"></script>
     <title>Daily Fourcast</title>
 </head>
 <!--The body of the page start here - visible part-->
@@ -31,8 +32,8 @@
     </header>
     <!--Navigation is here-->
     <nav class="clearfix">
-        <button>&#9776;</button>
-        <ul>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
             <li><a href="index.html" target="_blank">Home</a></li>
             <li class="active"><a href="" target="_blank">Preston</a></li>
             <li><a href="" target="_blank">Soda Spring</a></li>

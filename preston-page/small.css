@@ -71,6 +71,10 @@ nav ul li a:hover {
     background-color: #54bdb4;
 }
 
+nav ul.hide {
+    display: none;
+}
+
 main {
     text-align: left;
 }

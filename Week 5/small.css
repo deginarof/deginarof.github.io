@@ -5,6 +5,28 @@ h2 {
     font-family: 'Big Shoulders Display', cursive;
 }
 
+.herosummary {
+    position: relative;
+    margin: 10px auto;
+    margin-bottom: 30px;
+    border: 1px dashed cyan;
+    width: 980px;
+    height: 325px;
+}
+
+.hero {
+    width: 960px;
+    height: 300px;
+}
+
+.weathersummary {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: #54bdb4;
+    padding: 10px;
+}
+
 p {
     text-align: center;
 }

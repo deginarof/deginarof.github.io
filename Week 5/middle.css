@@ -13,14 +13,10 @@
     nav ul.hide {
         display: block;
     }
-}
-
-footer {
-    height: 85px;
-    margin-bottom: 15px;
-    padding-bottom: 0px;
-    padding-top: 1px;
-}
-
-
+    footer {
+        height: 85px;
+        margin-bottom: 15px;
+        padding-bottom: 0px;
+        padding-top: 1px;
+    }
 }

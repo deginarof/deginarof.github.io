@@ -13,6 +13,13 @@
     nav ul.hide {
         display: block;
     }
+    .weathersummary p {
+        font-size: 25px;
+        font-weight: lighter;
+    }
+    .house figure img {
+        width: auto;
+    }
     footer {
         height: 85px;
         margin-bottom: 15px;

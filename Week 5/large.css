@@ -5,11 +5,62 @@
     footer {
         margin: auto;
     }
-}
-
-nav ul li a {
-    padding: .6rem 1rem;
-}
-
-
+    nav ul li a {
+        padding: .6rem 1rem;
+    }
+    .weathersummary {
+        top: 30px;
+        left: 150px;
+    }
+    .weathersummary p {
+        font-size: 18px;
+        font-family: 'Racing Sans One', cursive;
+    }
+    .container {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .herosummary section img {
+        width: 100%;
+        height: 330px;
+    }
+    .box1 {
+        border: none;
+        margin: 0px 100px 10px 100px;
+        padding: 5px 20px 55px 15px;
+        box-shadow: 3px 3px 18px 3px gray;
+    }
+    .box2 {
+        border: none;
+        margin: 0px 100px 10px 100px;
+        padding: 5px 0px 117px 50px;
+        box-shadow: 3px 3px 15px 3px gray;
+    }
+    .box3 {
+        border: none;
+        margin: 0px 100px 10px 100px;
+        padding: 10px 0px 100px 30px;
+        box-shadow: 0 2px 15px gray;
+    }
+    .house figure img {
+        float: left;
+        margin: 0px 20px 100px -5px;
+        box-shadow: 3px 3px 15px 3px black;
+    }
+    .movie figure img {
+        float: right;
+        margin: 0px -5px 150px 20px;
+        box-shadow: 3px 3px 15px 3px black;
+    }
+    figure img {
+        width: 300px;
+    }
+    .container2 .map img {
+        width: 400px;
+        margin: 0px 200px 0px 0px;
+        float: left;
+    }
+    .house h2 {
+        text-align: center;
+    }
 }

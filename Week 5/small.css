@@ -98,6 +98,18 @@
                                     display: none;
                                 }
                                 
+                                #message {
+                                    background-color: #d814eb;
+                                }
+                                
+                                .showme {
+                                    display: block;
+                                }
+                                
+                                .hideme {
+                                    display: none;
+                                }
+                                
                                 h3 {
                                     font-family: 'Big Shoulders Display', cursive;
                                     color: #d814eb;
@@ -146,7 +158,7 @@
                                 
                                 .container2 .map img {
                                     width: 180px;
-                                    margin: 0px;
+                                    margin: -20px;
                                 }
                                 
                                 h5 {

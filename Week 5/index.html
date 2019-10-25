@@ -44,6 +44,7 @@
     <!--Central info is here-->
 
     <main>
+        <div id="message" class="hideme">The message about Sunday Church</div>
         <h1>Preston/Idaho</h1>
         <section class="herosummary">
             <section class="container">
@@ -91,12 +92,16 @@
                 <section class="map">
                     <img src="prestonmap.svg" alt=" Preston City Map ">
                 </section>
-                <h5>Daily Fourcast</h5>
-
+                <h2>Daily Fourcast</h2>
+                <img src="eddress.png" alt="Eddress Icon">
                 <p>12 Main Street Preston, Idaho</p>
                 <br>
+                <img src="phone.png" alt="Phone Icon">
                 <p>999-655-4527</p>
+                <img src="email.png" alt="Email Icon">
                 <p>abc@forecast.news</p>
+                <img src="facebook.png" alt="Facebook Icon">
+                <img src="youtube.png" alt="Youtube Icon">
             </section>
         </section>
 
@@ -121,6 +126,16 @@
             </script>
         </div>
     </footer>
+    <script>
+        console.log(today);
+        const dayNumber = today.getDay();
+        console.log(dayNumber);
+        if (dayNumber == 5) {
+            console.log("Today is day 6")
+        } else {
+            console.log("Today is not 6")
+        }
+    </script>
 </body>
 
 </html>

@@ -1,4 +1,10 @@
 @media only screen and (min-width: 38em) {
+    header .pagetitle p {
+        font-size: 15px;
+        text-align: left;
+        margin-left: 45px;
+        margin-right: 10px;
+    }
     nav button {
         display: none;
     }
@@ -20,6 +26,37 @@
     .weathersummary p {
         font-size: 20px;
     }
+    .herosummary {
+        margin-bottom: 15px;
+    }
+    .box0 {
+        display: block;
+    }
+    .box0 {
+        background-color: #e7d82cc4;
+        margin-bottom: 10px;
+        padding: 20px;
+    }
+    .box3 {
+        height: 580px;
+        margin-bottom: 15px;
+    }
+    tbody tr td img {
+        display: auto;
+        width: 40px;
+        height: 40px;
+    }
+    table,
+    th,
+    td {
+        display: auto;
+        border: 2px solid white;
+    }
+    table {
+        display: auto;
+        border-collapse: collapse;
+        margin-left: 127px;
+    }
     p {
         font-size: 19px;
     }
@@ -28,13 +65,26 @@
         margin: 10px 0px 10px 90px;
         box-shadow: 3px 3px 15px 3px black;
     }
-    .container2 .map img {
-        width: 300px;
-        margin: 0px;
+    .mediasocial {
+        margin-top: 135px;
+    }
+    .contact {
+        float: left;
+    }
+    .contact p {
+        font-size: 17px;
+    }
+    .map img {
+        display: block;
+        width: 100px;
+        margin-left: 20px;
+        float: left;
     }
     footer {
         height: 85px;
+        margin-top: 95px;
         margin-bottom: 15px;
+        padding-left: 0px;
         padding-bottom: 20px;
         padding-top: 1px;
     }

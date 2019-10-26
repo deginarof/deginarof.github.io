@@ -1,185 +1,230 @@
-                                header,
-                                p,
-                                script,
-                                h2 {
-                                    font-family: 'Big Shoulders Display', cursive;
-                                }
-                                
-                                .herosummary {
-                                    position: relative;
-                                    margin: 10px auto;
-                                    margin-bottom: 30px;
-                                    height: 325px;
-                                }
-                                
-                                .weathersummary {
-                                    position: absolute;
-                                    top: 20px;
-                                    left: 45px;
-                                    background-color: rgba(22, 155, 144, 0.61);
-                                    padding-left: 30px;
-                                    padding-right: 30px;
-                                    box-shadow: 3px 3px 15px 3px black;
-                                }
-                                
-                                .weathersummary p {
-                                    font-size: 20px;
-                                    color: #fff;
-                                    font-family: 'Racing Sans One', cursive;
-                                }
-                                
-                                h1 {
-                                    color: #ebd814;
-                                    text-shadow: 6px 2px rgb(114, 101, 5);
-                                    margin-left: 15px;
-                                }
-                                
-                                h1,
-                                ul {
-                                    font-family: 'Racing Sans One', cursive;
-                                }
-                                
-                                h2 {
-                                    color: #d914eb;
-                                }
-                                
-                                header {
-                                    display: flex;
-                                    align-content: center;
-                                    justify-content: center;
-                                }
-                                
-                                header img {
-                                    width: 100px;
-                                    padding-right: 10px;
-                                    margin-top: 10px;
-                                    margin-bottom: 10px;
-                                    margin-left: 15px;
-                                }
-                                
-                                nav {
-                                    margin: 0px;
-                                    margin-top: 10px;
-                                }
-                                
-                                nav button {
-                                    margin: .2rem 2%;
-                                    background-color: transparent;
-                                    border: none;
-                                    font-size: 1.6rem;
-                                    color: #555;
-                                }
-                                
-                                nav ul {
-                                    list-style-type: none;
-                                    padding: 0px;
-                                    margin: 0px;
-                                }
-                                
-                                nav ul li a {
-                                    display: block;
-                                    padding: .8rem 2%;
-                                    text-decoration: none;
-                                    color: black;
-                                    font-size: 15px;
-                                    border-top: 1px solid rgba(0, 0, 0, 0.3);
-                                }
-                                
-                                nav ul li .active a {
-                                    background-color: #408f88;
-                                    color: white;
-                                }
-                                
-                                nav ul li a:hover {
-                                    background-color: #54bdb4;
-                                }
-                                
-                                nav ul.hide {
-                                    display: none;
-                                }
-                                
-                                #message {
-                                    background-color: #d814eb;
-                                }
-                                
-                                .showme {
-                                    display: block;
-                                }
-                                
-                                .hideme {
-                                    display: none;
-                                }
-                                
-                                h3 {
-                                    font-family: 'Big Shoulders Display', cursive;
-                                    color: #d814eb;
-                                    font-size: 25px;
-                                }
-                                
-                                p {
-                                    font-size: 18px;
-                                    text-align: left;
-                                }
-                                
-                                .herosummary section img {
-                                    width: 100%;
-                                    height: 330px;
-                                }
-                                
-                                nav,
-                                footer {
-                                    background-color: #8bf7ee;
-                                    box-shadow: 0 2px 15px gray;
-                                }
-                                
-                                h1 {
-                                    padding-left: 15px;
-                                }
-                                
-                                .box1,
-                                .box2,
-                                .box3 {
-                                    background-color: #e7d82cc4;
-                                    border: 1px solid #8bf7ee;
-                                    margin-bottom: 10px;
-                                    padding: 20px;
-                                }
-                                
-                                figure img {
-                                    width: 200px;
-                                    margin: 10px 10px 10px 0px;
-                                }
-                                
-                                footer {
-                                    height: 95px;
-                                    margin-bottom: 18px;
-                                    padding: 1px;
-                                }
-                                
-                                .container2 .map img {
-                                    width: 180px;
-                                    margin: -20px;
-                                }
-                                
-                                h5 {
-                                    font-size: 18px;
-                                    font-family: 'Racing Sans One', cursive;
-                                }
-                                
-                                footer p {
-                                    font-size: 18px;
-                                    text-align: center;
-                                }
-                                
-                                .update {
-                                    font-family: 'Big Shoulders Display', cursive;
-                                    text-align: center;
-                                    color: black;
-                                    margin-bottom: 10px;
-                                }
-                                
-                                .clearfix:after {
-                                    content: "";
-                                    display: table;
-                                    clear: both;
-                                }
+                        header,
+                        p,
+                        script,
+                        h2 {
+                            font-family: 'Big Shoulders Display', cursive;
+                        }
+                        
+                        .herosummary {
+                            position: relative;
+                            margin: 10px auto;
+                            margin-bottom: 30px;
+                            height: 325px;
+                        }
+                        
+                        .weathersummary {
+                            position: absolute;
+                            top: 20px;
+                            left: 45px;
+                            background-color: rgba(22, 155, 144, 0.61);
+                            padding-left: 30px;
+                            padding-right: 30px;
+                            box-shadow: 3px 3px 15px 3px black;
+                        }
+                        
+                        .weathersummary p {
+                            font-size: 20px;
+                            color: #fff;
+                            font-family: 'Racing Sans One', cursive;
+                        }
+                        
+                        h1 {
+                            color: #ebd814;
+                            text-shadow: 6px 2px rgb(114, 101, 5);
+                        }
+                        
+                        h1,
+                        ul {
+                            font-family: 'Racing Sans One', cursive;
+                        }
+                        
+                        h2 {
+                            color: #d914eb;
+                        }
+                        
+                        header .pagetitle p {
+                            font-size: 15px;
+                            text-align: left;
+                            margin-left: 15px;
+                            margin-right: 10px;
+                        }
+                        
+                        header .pagetitle h1 {
+                            margin-left: 15px;
+                            font-size: 30px;
+                        }
+                        
+                        header {
+                            display: flex;
+                            align-content: center;
+                            justify-content: center;
+                        }
+                        
+                        header img {
+                            width: 100px;
+                            margin-top: 10px;
+                            margin-bottom: 10px;
+                            margin-left: 15px;
+                        }
+                        
+                        nav {
+                            margin: 0px;
+                            margin-top: 10px;
+                        }
+                        
+                        nav button {
+                            margin: .2rem 4%;
+                            background-color: transparent;
+                            border: none;
+                            font-size: 1.6rem;
+                            color: #555;
+                        }
+                        
+                        nav ul {
+                            list-style-type: none;
+                            padding: 0px;
+                            margin: 0px;
+                        }
+                        
+                        nav ul li a {
+                            display: block;
+                            padding: .8rem 2%;
+                            text-decoration: none;
+                            color: black;
+                            font-size: 15px;
+                            border-top: 1px solid rgba(0, 0, 0, 0.3);
+                        }
+                        
+                        nav ul li .active a {
+                            background-color: #408f88;
+                            color: white;
+                        }
+                        
+                        nav ul li a:hover {
+                            background-color: #54bdb4;
+                        }
+                        
+                        nav ul.hide {
+                            display: none;
+                        }
+                        
+                        h1 {
+                            margin-left: 45px;
+                        }
+                        
+                        #message {
+                            background-color: #d814eb;
+                        }
+                        
+                        .showme {
+                            display: block;
+                        }
+                        
+                        .hideme {
+                            display: none;
+                        }
+                        
+                        h3 {
+                            font-family: 'Big Shoulders Display', cursive;
+                            color: #d814eb;
+                            font-size: 25px;
+                        }
+                        
+                        p {
+                            font-size: 18px;
+                            text-align: left;
+                        }
+                        
+                        .herosummary section img {
+                            width: 100%;
+                            height: 330px;
+                        }
+                        
+                        nav,
+                        footer {
+                            background-color: #8bf7ee;
+                            box-shadow: 0 2px 15px gray;
+                        }
+                        
+                        .box0 {
+                            display: none;
+                        }
+                        
+                        .box1,
+                        .box2,
+                        .box3 {
+                            background-color: #e7d82cc4;
+                            margin-bottom: 10px;
+                            padding: 20px;
+                        }
+                        
+                        figure img {
+                            width: 200px;
+                            margin: 10px 10px 10px 0px;
+                        }
+                        
+                        footer {
+                            height: 95px;
+                            margin-bottom: 18px;
+                            padding: 1px 1px 10px 1px;
+                        }
+                        
+                        h5 {
+                            font-size: 18px;
+                            font-family: 'Racing Sans One', cursive;
+                        }
+                        
+                        footer p {
+                            font-size: 18px;
+                            text-align: center;
+                        }
+                        
+                        .container2 .map img {
+                            display: none;
+                        }
+                        
+                        .update {
+                            font-family: 'Big Shoulders Display', cursive;
+                            text-align: center;
+                            color: black;
+                            margin-bottom: 10px;
+                        }
+                        
+                        .contact p {
+                            font-size: 15px;
+                        }
+                        
+                        .contact img {
+                            float: left;
+                            width: 20px;
+                            height: 20px;
+                            margin-right: 10px;
+                        }
+                        
+                        .mediasocial {
+                            text-align: right;
+                            padding-right: 20px;
+                        }
+                        
+                        .mediasocial li {
+                            display: inline-block;
+                            list-style-type: none;
+                            -webkit-user-select: none;
+                            -moz-user-select: none;
+                        }
+                        
+                        .mediasocial li a {
+                            border-bottom: none;
+                        }
+                        
+                        .mediasocial li img {
+                            width: 40px;
+                            height: 40px;
+                            margin-right: 20px;
+                        }
+                        
+                        .clearfix:after {
+                            content: "";
+                            display: table;
+                            clear: both;
+                        }

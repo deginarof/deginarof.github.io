@@ -38,8 +38,9 @@
         padding: 20px;
     }
     .box3 {
-        height: 580px;
+        height: 250px;
         margin-bottom: 15px;
+        padding-top: 5px;
     }
     tbody tr td img {
         display: auto;
@@ -65,24 +66,40 @@
         margin: 10px 0px 10px 90px;
         box-shadow: 3px 3px 15px 3px black;
     }
-    .mediasocial {
-        margin-top: 135px;
+    .container2 img {
+        display: inline;
+        width: 300px;
+        margin-left: 20px;
+        margin-top: 15px;
+        float: left;
     }
     .contact {
         float: left;
+        margin-left: 15px;
+    }
+    .contact h2 {
+        text-align: center;
+        margin-top: 15px;
     }
     .contact p {
         font-size: 17px;
     }
-    .map img {
-        display: block;
-        width: 100px;
-        margin-left: 20px;
+    .contact img {
         float: left;
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+    }
+    .mediasocial {
+        margin-top: 15px;
+    }
+    .mediasocial li img {
+        width: 40px;
+        height: 40px;
     }
     footer {
         height: 85px;
-        margin-top: 95px;
+        margin-top: 0px;
         margin-bottom: 15px;
         padding-left: 0px;
         padding-bottom: 20px;

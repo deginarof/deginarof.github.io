@@ -46,10 +46,10 @@
         padding: 10px 0px 0px 30px;
     }
     .box3 {
-        height: 380px;
+        height: 330px;
         background-color: #e7d82cc4;
         margin-bottom: 10px;
-        padding-bottom: 55px;
+        padding-bottom: 90px;
         box-shadow: 3px 3px 15px 3px gray;
     }
     tbody tr td img {
@@ -87,17 +87,37 @@
     figure img {
         width: 300px;
     }
+    .container2 img {
+        width: 500px;
+        margin-left: 20px;
+        margin-top: 15px;
+        float: left;
+    }
     .contact {
         float: right;
         margin-top: 38px;
+        margin-left: 15px;
     }
-    .container2 .map img {
-        float: left;
+    .contact h2 {
+        text-align: center;
+        margin-top: 28px;
+    }
+    .contact p {
+        font-size: 20px;
+        margin-top: 35px;
+        margin-left: 44px;
+    }
+    .contact img {
+        width: 20px;
+        height: 20px;
+        margin-left: 35px;
     }
     .mediasocial {
+        float: right;
         margin-top: 0px;
+        margin-right: 45px;
     }
     footer {
-        margin-top: 65px;
+        margin-top: 15px;
     }
 }

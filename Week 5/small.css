@@ -158,6 +158,10 @@
                             padding: 20px;
                         }
                         
+                        .box3 {
+                            height: 210px;
+                        }
+                        
                         figure img {
                             width: 200px;
                             margin: 10px 10px 10px 0px;
@@ -173,7 +177,7 @@
                             text-align: center;
                         }
                         
-                        .container2 img {
+                        .container2>img {
                             display: none;
                         }
                         
@@ -185,14 +189,15 @@
                         }
                         
                         .contact p {
-                            font-size: 15px;
+                            font-size: 17px;
                         }
                         
                         .contact img {
                             float: left;
                             width: 20px;
                             height: 20px;
-                            margin-left: 10px;
+                            margin-left: 1px;
+                            margin-right: 10px;
                         }
                         
                         .mediasocial {

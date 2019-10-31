@@ -35,6 +35,9 @@
         margin-top: 3px;
         margin-bottom: 2px;
     }
+    main .message {
+        color: #ffffff;
+    }
     #Update {
         margin-bottom: 3px;
     }

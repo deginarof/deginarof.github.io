@@ -48,7 +48,14 @@
         <h1>Preston/Idaho</h1>
         <section class="herosummary">
             <section class="container">
-                <img src="herophoto.jpg" alt="A lake in Utah">
+
+
+                <img srcset="cit230heroimagesmall.jpeg 400w,
+                    cit230heroimagemedium.jpeg 700w,
+                    cit230heroimagelarge.jpeg 4912w" sizes="(max-width: 400px) 400px,
+                    (max-width: 700px) 700px,
+                    4912px" src="cit230heroimagelarge.jpeg" alt="Blue Sky with a Green Field">
+
             </section>
             <section class="weathersummary ">
                 <h3>Weather Summary</h3>
@@ -188,6 +195,7 @@
             </script>
         </div>
     </footer>
+    <!--The message to display on Saturdays foes here-->
     <script>
         const nToday = new Date();
         console.log(nToday);
@@ -200,8 +208,9 @@
             element.classList.add("hideme")
         }
     </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.28/webfont.js"></script>
-    </script>
+    <!--Here goes the webfont load-->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
     <script>
         WebFont.load({
             google: {

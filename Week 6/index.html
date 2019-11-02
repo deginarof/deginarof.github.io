@@ -15,12 +15,13 @@
     <link rel="stylesheet" type="text/css" href="small.css" media="all">
     <link rel="stylesheet" type="text/css" href="middle.css" media="all">
     <link rel="stylesheet" type="text/css" href="large.css" media="all">
-    <script src="scripts.js"></script>
+    <link rel="stylesheet" type="text/js" href="windchill.js" media="all">
     <title>Daily Fourcast</title>
 </head>
 <!--The body of the page start here - visible part-->
 
 <body>
+    <div id="message">"Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion."</div>
     <!--Header is here-->
     <header>
         <img src="weather.png" alt="Logo of the site.">
@@ -44,24 +45,26 @@
     <!--Central info is here-->
 
     <main>
-        <div id="message">"Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion."</div>
         <h1>Preston/Idaho</h1>
         <section class="herosummary">
             <section class="container">
-
-
                 <img srcset="cit230heroimagesmall.jpeg 400w,
                     cit230heroimagemedium.jpeg 700w,
-                    cit230heroimagelarge.jpeg 4912w" sizes="(max-width: 400px) 400px,
-                    (max-width: 700px) 700px,
-                    4912px" src="cit230heroimagelarge.jpeg" alt="Blue Sky with a Green Field">
-
+                    cit230heroimagelarge.jpeg 2000w" sizes="(max-width: 400px) 400px,
+                    (max-width: 600px) 700px,
+                   2000px" src="cit230heroimagesmall.jpeg" alt="Blue Sky with a Green Field">
             </section>
             <section class="weathersummary ">
                 <h3>Weather Summary</h3>
                 <p>Currently: Sunny</p>
                 <p>High: 76 ºF</p>
-                <p>Wind Chilli: ºF</p>
+                <P>Temperature F°.</p>
+                <input type="text" id="Temperature" size="5">
+                <p>Wind Speed in m/h.</p>
+                <input type="text" id="WindSpeed" size="5">
+                <button type="button" onclick="doImputOutput()">Wind Chill</button>
+                <div id="output"></div>
+                <script type="text/javascript" src="scripts.js"></script>
                 <p>Humidity: 69%</p>
                 <p>Wind Speed: 5mph</p>
             </section>

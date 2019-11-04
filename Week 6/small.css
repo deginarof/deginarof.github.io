@@ -7,23 +7,24 @@
                         
                         .herosummary {
                             position: relative;
-                            margin: 10px auto;
+                            margin: 20px auto;
                             margin-bottom: 30px;
                             height: 325px;
+                            padding: 20 0 100 0;
                         }
                         
                         .weathersummary {
                             position: absolute;
-                            top: 20px;
-                            left: 45px;
+                            top: 28px;
+                            left: 48px;
                             background-color: rgba(22, 155, 144, 0.61);
                             padding-left: 30px;
                             padding-right: 30px;
                             box-shadow: 3px 3px 15px 3px black;
                         }
                         
-                        .weathersummary p {
-                            font-size: 20px;
+                        .weathersummary>p {
+                            font-size: 13px;
                             color: #fff;
                             font-family: 'Racing Sans One', cursive;
                         }
@@ -134,7 +135,8 @@
                         h3 {
                             font-family: 'Big Shoulders Display', cursive;
                             color: #d814eb;
-                            font-size: 25px;
+                            font-size: 22px;
+                            margin: 0px;
                         }
                         
                         p {

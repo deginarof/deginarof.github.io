@@ -57,15 +57,11 @@
                 <h3>Weather Summary</h3>
                 <p>Currently: Sunny</p>
                 <p>High: 76 ºF</p>
-                <P>Temperature F°.</p>
-                <input type="text" id="Temperature" size="5">
-                <p>Wind Speed in m/h.</p>
-                <input type="text" id="WindSpeed" size="5">
-                <button type="button" onclick="doImputOutput()">Wind Chill</button>
-                <div id="output"></div>
-                <script type="text/javascript" src="scripts.js"></script>
+                <P>Current Temperature is <span id="temp">32</span>&deg;</p>
+                <p>Wind Speed is <span id="speed">60</span>mph</p>
+                <p id="chill">message</p>
                 <p>Humidity: 69%</p>
-                <p>Wind Speed: 5mph</p>
+
             </section>
         </section>
         <section class="box0">
@@ -220,6 +216,7 @@
             }
         });
     </script>
+
 </body>
 
 </html>

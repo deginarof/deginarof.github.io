@@ -59,7 +59,7 @@
     table {
         display: auto;
         border-collapse: collapse;
-        margin-left: 95px;
+        margin-left: 150px;
         margin-top: 10px;
     }
     table thead tr th {
@@ -73,7 +73,7 @@
     }
     figure img {
         width: 300px;
-        margin: 10px 0px 10px 120px;
+        margin: 10px 0px 10px 170px;
         box-shadow: 3px 3px 15px 3px black;
     }
     .container2 img {

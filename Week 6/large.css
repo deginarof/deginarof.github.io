@@ -9,30 +9,27 @@
         padding: .6rem 1rem;
     }
     .weathersummary {
-        top: 35px;
+        top: 263px;
         left: 160px;
         padding-top: -2px;
     }
     .weathersummary p {
-        font-size: 14px;
+        font-size: 20px;
         font-family: 'Racing Sans One', cursive;
-        font-size: 15px;
     }
-    .container {
+    .herosummary {
         margin-left: 100px;
         margin-right: 100px;
     }
     .herosummary .container img {
-        width: 100%;
-        height: 370px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     h1 {
         margin-left: 100px;
     }
     .box0 {
         border: none;
-        margin: 75px 100px 10px 100px;
+        margin: 5px 100px 10px 100px;
         padding-bottom: 85px;
         padding-top: 20px;
         box-shadow: 3px 3px 18px 3px gray;
@@ -40,25 +37,24 @@
     .box1 {
         border: none;
         margin: 0px 100px 10px 100px;
-        padding: 5px 20px 45px 15px;
+        padding: 5px 45px 10px 55px;
         box-shadow: 3px 3px 18px 3px gray;
     }
     .box2 {
         border: none;
         margin: 0px 100px 10px 100px;
-        padding: 5px 0px 117px 50px;
+        padding: 5px 45px 10px 50px;
         box-shadow: 3px 3px 15px 3px gray;
     }
     .box3 {
         border: none;
         margin: 0px 100px 10px 100px;
-        padding: 10px 0px 0px 30px;
     }
     .box3 {
         height: 330px;
         background-color: #e7d82cc4;
-        margin-bottom: 10px;
-        padding-bottom: 90px;
+        padding-top: 10px;
+        padding-bottom: 100px;
         box-shadow: 3px 3px 15px 3px gray;
     }
     tbody tr td img {
@@ -81,7 +77,7 @@
     }
     .house figure img {
         float: left;
-        margin: 0px 20px 100px -5px;
+        margin: 0px 20px 20px -35px;
         box-shadow: none;
         border: 5px solid #54bdb4;
         border-radius: 10px;
@@ -91,7 +87,7 @@
     }
     .movie figure img {
         float: right;
-        margin: 0px -5px 150px 20px;
+        margin: 0px -30px 20px 20px;
         box-shadow: none;
         border: 5px solid #54bdb4;
         border-radius: 10px;
@@ -101,23 +97,24 @@
     }
     .container2 img {
         width: 500px;
-        margin-left: 20px;
-        margin-top: 15px;
+        margin-left: 15px;
+        margin-top: 20px;
         float: left;
     }
     .contact {
         float: right;
-        margin-top: 38px;
-        margin-left: 15px;
+        margin-top: 8px;
+        margin-left: 45px;
     }
     .contact h2 {
         text-align: center;
-        margin-top: 28px;
+        margin-top: 20px;
     }
     .contact p {
         font-size: 20px;
-        margin-top: 35px;
+        margin-top: 25px;
         margin-left: 44px;
+        margin-right: 40px;
     }
     .contact img {
         width: 20px;
@@ -126,7 +123,7 @@
     }
     .mediasocial {
         float: right;
-        margin-top: 0px;
+        margin-top: 30px;
         margin-right: 45px;
     }
     footer {

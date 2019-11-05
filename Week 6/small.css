@@ -5,26 +5,31 @@
                             font-family: 'Big Shoulders Display', cursive;
                         }
                         
-                        .herosummary {
+                        .container {
                             position: relative;
-                            margin: 20px auto;
-                            margin-bottom: 30px;
-                            height: 325px;
+                            margin: 0px 0px 10px 0px;
+                            width: 100%;
+                        }
+                        
+                        .herosummary .container img {
+                            position: relative;
+                            margin: 20px 0px 10px 0px;
+                            width: 100%;
                             padding: 20 0 100 0;
                         }
                         
                         .weathersummary {
                             position: absolute;
-                            top: 28px;
-                            left: 48px;
+                            top: 260px;
+                            left: 65px;
                             background-color: rgba(22, 155, 144, 0.61);
-                            padding-left: 30px;
-                            padding-right: 30px;
+                            padding-left: 10px;
+                            padding-right: 10px;
                             box-shadow: 3px 3px 15px 3px black;
                         }
                         
                         .weathersummary>p {
-                            font-size: 13px;
+                            font-size: 8px;
                             color: #fff;
                             font-family: 'Racing Sans One', cursive;
                         }

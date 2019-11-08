@@ -1,8 +1,18 @@
-article img[data-src] {
-    filter: blur(0.2em);
+main {
+    margin-right: 600px;
+    margin-left: 400px;
 }
 
-article img {
+h1 {
+    text-align: left;
+    margin-left: 45px;
+}
+
+figure img[data-src] {
+    filter: blur(0.5em);
+}
+
+figure img {
     filter: blur(0em);
     transition: filter 0.5s;
 }

@@ -15,13 +15,11 @@
     <link rel="stylesheet" type="text/css" href="small.css" media="all">
     <link rel="stylesheet" type="text/css" href="middle.css" media="all">
     <link rel="stylesheet" type="text/css" href="large.css" media="all">
-    <title>Daily Fourcast</title>
+    <title>Gallery</title>
 </head>
 <!--The body of the page start here - visible part-->
 
 <body>
-    <div id="message">"Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion."</div>
-    <!--Header is here-->
     <header>
         <img src="weather.png" alt="Logo of the site.">
         <section class="pagetitle">
@@ -42,10 +40,50 @@
         </ul>
     </nav>
     <!--Central info is here-->
-    <main></main>
+    <main>
+        <h1>Utah´s Gallery</h1>
+        <section class="weatherphotos">
+            <figure>
+                <img src="https://via.placeholder.com/1100x730/#D814EB/#EBD814/.png?text=Placeholder" data-src="bright weather.jpg" alt="Bright Weather" sizes="50vw" srcset="brightweather500.jpg 500w,
+                 brightweather800.jpg 800w, brightweather1100.jpg 1100w">
+            </figure>
+            <figure>
+                <img src="https://via.placehwolder.com/1100x730/#D814EB/#EBD814/.png?text=Placeholder" data-src="cloudyweather.jpg" alt="Cloudy Weather" sizes="50vw" srcset="cloudyweather500.jpg 500w, 
+                cloudyweather800.jpg 800w, cloudyweather1100.jpg 1100w">
+            </figure>
+            <figure>
+                <img src="https://via.placeholder.com/1100x730/#D814EB/#EBD814/.png?text=Placeholder" data-src="foggy weather.jpg" alt="Foggy Weather" sizes=" 50vw " srcset="foggyweather500.jpg 500w,
+                 foggyweather800.jpg 800w, foggyweather1100.jpg 1100w">
+            </figure>
+            <figure>
+                <img src="https://via.placeholder.com/1100x730/#D814EB/#EBD814/.png?text=Placeholder " data-src="rainyweather.jpg " alt="Rainy Weather" sizes=" 50vw " srcset="rainyweather500.jpg 500w, 
+                rainyweather800.jpg 800w, rainyweather1100.jpg 1100w">
+            </figure>
+            <figure>
+                <img src="https://via.placeholder.com/1100x730/#D814EB/#EBD814/.png?text=Placeholder " data-src="snow squalls weather.jpg " alt="Snow Squalls" sizes=" 50vw " srcset="snowsquallsweather500.jpg 500w, 
+                snowsquallsweather800.jpg 800w, snowsquallsweather1100.jpg 1100w">
+                <figure>
+                    <section class="weatherphotos1">
+                        <img src="https://via.placeholder.com/1100x730/#D814EB/#EBD814/.png?text=Placeholder " data-src="snowyweather.jpg " alt="Snowy Weather" sizes=" 50vw " srcset="snowyweather500.jpg 500w, 
+                        snowyweather800.jpg 800w, snowyweather1100.jpg 1100w">
+                </figure>
+                <figure>
+                    <img src="https://via.placeholder.com/1100x730/#D814EB/#EBD814/.png?text=Placeholder " data-src="stormy weather.jpg " alt="Stormy Weather" sizes=" 50vw " srcset="stormyweather500.jpg 500w,
+                         stormyweather800.jpg 800w, stormyweather1100.jpg 1100w">
+                </figure>
+                <figure>
+                    <img src="https://via.placeholder.com/1100x730/#D814EB/#EBD814/.png?text=Placeholder " data-src="sunny weather BYCT.jpg " alt="Brigham Young City Temple in a Sunny Day" sizes=" 50vw " srcset="sunnyweatherBYCT500.jpg 500w, 
+                        sunnyweatherBYCT800.jpg 800w, sunnyweatherBYCT1100.jpg 1100w">
+                </figure>
+                <figure>
+                    <img src="https://via.placeholder.com/1100x730/#D814EB/#EBD814/.png?text=Placeholder " data-src="windweather.jpg " alt="Windy Weather" sizes=" 50vw " srcset="windweather500.jpg 500w, 
+                        windweather800.jpg 800w, windweather1100.jpg 1100w">
+                </figure>
+                </section>
+    </main>
     <footer>
         <p>&copy; The Weather Site | Preston Page | Degina R. de O. Fernandes |
-            <a href="https://www.byui.edu/online " target="_blank">BYUI 
+            <a href="https://www.byui.edu/online " target="_blank ">BYUI 
                     Online Learning</a></p>
 
         <div class="update ">
@@ -65,19 +103,19 @@
         console.log(nToday);
         const dayNumber = nToday.getDay();
         console.log(dayNumber);
-        const element = document.getElementById("message")
+        const element = document.getElementById("message ")
         if (dayNumber == 6) {
-            element.classList.add("showme")
+            element.classList.add("showme ")
         } else {
-            element.classList.add("hideme")
+            element.classList.add("hideme ")
         }
     </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.28/webfont.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.28/webfont.js "></script>
     </script>
     <script>
         WebFont.load({
             google: {
-                families: ["Big Shoulders Display", "Racing Sans One"]
+                families: ["Big Shoulders Display ", "Racing Sans One "]
             }
         });
     </script>

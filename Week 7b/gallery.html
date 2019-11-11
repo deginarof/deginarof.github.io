@@ -43,7 +43,44 @@
     </nav>
     <!--Central info is here-->
     <main></main>
-    <footer></footer>
+    <footer>
+        <p>&copy; The Weather Site | Preston Page | Degina R. de O. Fernandes |
+            <a href="https://www.byui.edu/online " target="_blank">BYUI 
+                    Online Learning</a></p>
+
+        <div class="update ">
+            <script>
+                var today = new Date();
+                var dd = String(today.getDate()).padStart(2, '0');
+                var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+                var yyyy = today.getFullYear();
+
+                today = mm + '/' + dd + '/' + yyyy;
+                document.write(today);
+            </script>
+        </div>
+    </footer>
+    <script>
+        const nToday = new Date();
+        console.log(nToday);
+        const dayNumber = nToday.getDay();
+        console.log(dayNumber);
+        const element = document.getElementById("message")
+        if (dayNumber == 6) {
+            element.classList.add("showme")
+        } else {
+            element.classList.add("hideme")
+        }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.28/webfont.js"></script>
+    </script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ["Big Shoulders Display", "Racing Sans One"]
+            }
+        });
+    </script>
 </body>
 
 </html>

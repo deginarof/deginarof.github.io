@@ -89,12 +89,6 @@
                             margin-left: 55px;
                         }
                         
-                        main>p {
-                            font-size: 18px;
-                            text-align: center;
-                            margin-left: 45px;
-                        }
-                        
                         main {
                             background-color: #e7d82cc4;
                             padding-bottom: 15px;
@@ -105,6 +99,10 @@
                         .weatherphotos {
                             padding-right: 200px;
                             padding-left: 45px;
+                        }
+                        
+                        p {
+                            text-align: center;
                         }
                         
                         nav,

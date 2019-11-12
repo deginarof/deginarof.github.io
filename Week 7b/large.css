@@ -1,0 +1,14 @@
+        @media only screen and (min-width: 1012px) {
+        main {
+            margin-left: none;
+            margin-left: none;
+        }
+        p {
+            margin-left: 40px;
+            font-size: 25px;
+        }
+        .weatherphotos {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: -500px;
+        }

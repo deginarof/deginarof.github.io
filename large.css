@@ -1,0 +1,30 @@
+@media only screen and (min-width: 1025px) {
+    header,
+    footer {
+        margin-left: 250px;
+        margin-right: 250px;
+        border-radius: 15px;
+    }
+    figure>img {
+        width: 150px;
+        margin-right: 250px;
+    }
+    h2 {
+        font-family: 'Unica One', cursive;
+        text-align: left;
+        font-size: 22.4px;
+        margin: 16px;
+    }
+    #line {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    ul {
+        margin-left: 250px;
+    }
+    h2 {
+        font-size: 30px;
+        margin-top: 25px;
+        margin-left: 250px;
+    }
+}

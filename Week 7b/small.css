@@ -89,10 +89,10 @@
                             margin-left: 55px;
                         }
                         
-                        .weatherphoto>p {
+                        main>p {
                             font-size: 18px;
                             text-align: center;
-                            padding-left: 65px;
+                            margin-left: 45px;
                         }
                         
                         main {

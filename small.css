@@ -24,10 +24,10 @@
                 margin: auto;
             }
             
-            figure {
+            figure>img {
                 height: auto;
-                width: 100px;
-                margin: 20px;
+                width: 200px;
+                margin-left: 20px;
             }
             
             h2 {

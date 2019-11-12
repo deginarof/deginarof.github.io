@@ -1,15 +1,16 @@
                                                                                 @media only screen and (min-width: 608px) {
-                                                                                body {
-                                                                                    margin-left: none;
-                                                                                    margin-left: none;
-                                                                                }
-                                                                                p {
-                                                                                    margin-left: 40px;
-                                                                                    font-size: 25px;
-                                                                                }
-                                                                                .weatherphotos {
-                                                                                    display: grid;
-                                                                                    grid-template-columns: 1fr 1fr;
-                                                                                    column-gap: 10px;
-                                                                                    row-gap: 20px;
+                                                                                    body {
+                                                                                        margin-left: none;
+                                                                                        margin-left: none;
+                                                                                    }
+                                                                                    p {
+                                                                                        margin-left: 40px;
+                                                                                        font-size: 25px;
+                                                                                    }
+                                                                                    .weatherphotos {
+                                                                                        display: grid;
+                                                                                        grid-template-columns: 1fr 1fr;
+                                                                                        column-gap: 10px;
+                                                                                        row-gap: 20px;
+                                                                                    }
                                                                                 }

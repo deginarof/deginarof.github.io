@@ -94,7 +94,7 @@
                             }
                             
                             main {
-                                background-color: #e7d82cc4;
+                                background-color: #e7d72c88;
                                 padding-bottom: 15px;
                                 padding-top: 10px;
                                 margin-top: 15px;
@@ -106,7 +106,11 @@
                             
                             .weatherphotos {
                                 padding-right: 90px;
-                                padding-left: 30px;
+                                padding-left: 20px;
+                            }
+                            
+                            figure>p {
+                                margin-left: 50px;
                             }
                             
                             figure img {

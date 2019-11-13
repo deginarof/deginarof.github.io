@@ -13,6 +13,9 @@
                                                                                     nav ul.hide {
                                                                                         display: block;
                                                                                     }
+                                                                                    nav>ul>li>a {
+                                                                                        font-size: 17px;
+                                                                                    }
                                                                                     header .pagetitle p {
                                                                                         font-size: 20px;
                                                                                     }
@@ -21,7 +24,10 @@
                                                                                         font-size: 25px;
                                                                                     }
                                                                                     main>h1 {
-                                                                                        margin-left: 80px;
+                                                                                        margin-left: 60px;
+                                                                                    }
+                                                                                    figure>p {
+                                                                                        margin-right: 50px;
                                                                                     }
                                                                                     .weatherphotos {
                                                                                         display: grid;

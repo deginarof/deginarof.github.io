@@ -43,9 +43,13 @@
                 border: none;
                 width: 250px;
             }
+            figure>p {
+                font-size: 25px;
+                margin-right: 100px;
+            }
             .hover:hover {
                 border: none;
-                box-shadow: 0 0 50px #333;
+                box-shadow: 0 0 50px #D814EB;
             }
             footer>p {
                 font-size: 25px;

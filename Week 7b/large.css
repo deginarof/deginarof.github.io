@@ -1,15 +1,53 @@
-        @media only screen and (min-width: 1012px) {
+        @media only screen and (min-width: 1025px) {
+            header,
+            nav,
+            main,
+            footer {
+                margin: auto;
+            }
+            .pagetitle>h1 {
+                font-size: 43px;
+            }
+            .pagetitle>p {
+                font-size: 30px;
+            }
+            nav>ul>li>a {
+                font-size: 20px;
+            }
             main {
-                margin-left: none;
-                margin-left: none;
+                margin: 15px 0px 15px 0px;
+            }
+            main>h1 {
+                font-size: 40px;
+                margin-left: 150px;
+            }
+            nav {
+                display: block;
             }
             p {
                 margin-left: 40px;
-                font-size: 25px;
+                font-size: 50px;
+            }
+            main {
+                padding-bottom: 25px;
             }
             .weatherphotos {
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr;
-                column-gap: -500px;
+                column-gap: 15px;
+                background-image: url(sunnyday.jpg);
+                box-shadow: 0 2px 15px gray;
+                padding-left: 110px;
+            }
+            figure>img {
+                border: none;
+                width: 250px;
+            }
+            .hover:hover {
+                border: none;
+                box-shadow: 0 0 50px #333;
+            }
+            footer>p {
+                font-size: 25px;
             }
         }

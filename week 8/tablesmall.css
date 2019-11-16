@@ -1,5 +1,24 @@
-header h1 {
+header h1,
+footer {
     background-color: #628ca6;
+    color: white;
+    height: 100px;
+    padding: 20px 0px 0px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-top: 0px;
+    padding-top: 40px;
+    font-size: 50px;
+}
+
+footer {
+    font-size: 20px;
+}
+
+header h1 {
+    font-family: 'Ubuntu', sans-serif;
 }
 
 caption,
@@ -47,7 +66,7 @@ tr:nth-child(5) {
 }
 
 table {
-    margin: 100px 0px 0px 100px;
+    margin: 50px 500px 50px 500px;
 }
 
 table {

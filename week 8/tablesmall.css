@@ -65,6 +65,10 @@ tr:nth-child(5) {
     background-color: #e7ffed
 }
 
+.colored {
+    background-color: #628ca6;
+}
+
 table {
     margin: 50px 500px 50px 500px;
 }
@@ -84,6 +88,7 @@ tr td {
 }
 
 table,
+caption,
 th,
 td {
     border: 1px solid rgb(226, 222, 222);

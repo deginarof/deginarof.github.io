@@ -114,6 +114,10 @@
                         
                         #message {
                             background-color: #d814eb;
+                            color: white;
+                            font-size: 35px;
+                            font-weight: bold;
+                            text-align: center;
                         }
                         
                         .showme {

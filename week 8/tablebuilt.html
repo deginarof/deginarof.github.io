@@ -15,7 +15,9 @@
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <h1>Week 8 Activity - Table</h1>
+    </header>
     <main>
         <table class="t01">
             <caption>ACME Wildwest</caption>
@@ -65,7 +67,23 @@
             </tfoot>
         </table>
     </main>
-    <footer></footer>
+    <footer>
+        <p>&copy; 2019 | Degina R. de O. Fernandes | deginapupt@hotmail.com |
+            <a href="https://www.byui.edu/online" target="_blank">BYUI 
+                        Online Learning</a></p>
+
+        <div class="update">
+            <script>
+                var today = new Date();
+                var dd = String(today.getDate()).padStart(2, '0');
+                var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+                var yyyy = today.getFullYear();
+
+                today = mm + '/' + dd + '/' + yyyy;
+                document.write(today);
+            </script>
+        </div>
+    </footer>
 </body>
 
 </html>

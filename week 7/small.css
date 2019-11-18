@@ -1,3 +1,10 @@
+h1 {
+    color: white;
+    font-family: 'Monoton', cursive, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    font-size: 19px;
+    text-align: center;
+}
+
 main {
     margin-right: 600px;
     margin-left: 400px;
@@ -15,4 +22,10 @@ figure img[data-src] {
 figure img {
     filter: blur(0em);
     transition: filter 0.5s;
+}
+
+nav {
+    background-color: white;
+    margin-left: 6px;
+    margin-right: 6px;
 }

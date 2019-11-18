@@ -41,6 +41,67 @@
     </nav>
     <!--Central info is here-->
     <main>
+        <h1>Storm Center</h1>
+        <h2>Storm Report</h2>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top">Full Name*<input type="text" name="fname" required></label>
+                <label class="top">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="top">Zip Code*<input type="number" name="zcode" placeholder="11111" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Storm Information</legend>
+                <label class="top">Storm Date<input type="date" name="date"></label>
+                <label class="top">Storm Type
+                    <select name="list">
+                        <option value="">Please Select</option>
+                    <option value="flood">Flash Flood</option>
+                    <option value="hail">Hail</option>
+                    <option value="hurricane">Hurricane</option>
+                    <option value="thunderstorm">Thunderstorm</option>
+                    <option value="tornado">Tornado</option>
+                </select></label>
+
+                <label class="sbs" class="flexly" for="rating">Storm Severity (1 to 10):&nbsp;&nbsp;&nbsp;
+                    <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                     oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">5</span></label>
+                <datalist id="tickmarks">
+                            <option value="0">
+                            <option value="1">
+                            <option value="2">
+                            <option value="3">
+                            <option value="4">
+                            <option value="5">
+                            <option value="6">
+                            <option value="7">
+                            <option value="8">
+                            <option value="9">
+                            <option value="10">
+                          </datalist>
+                <label class="top">Storm Region
+                        <select name="list">
+                                <option value="">Select Region</option>
+                            <option value="haven">Fish Haven</option>
+                            <option value="preston">Preston</option>
+                            <option value="springs">Soda Springs</option>
+                        </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <Legend>Aditional Information</Legend>
+                <div>Are you in Danger?</div>
+                <label class="sbs"><input type="radio" name="response" value="yes">Yes</label>
+                <label class="sbs"><input type="radio" name="response" value="maybe">Maybe</label>
+                <label class="sbs"><input type="radio" name="response" value="no">No</label>
+                <label class="top">
+                    <div>Comment</div>
+                    <textarea></textarea></label>
+                <label class="send"><input type="submit" name="button" value="Sending Storm description"></label>
+            </fieldset>
+        </form>
     </main>
     <footer>
         <p>&copy; The Weather Site | Preston Page | Degina R. de O. Fernandes |

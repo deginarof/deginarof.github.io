@@ -15,17 +15,20 @@
     <link rel="stylesheet" type="text/css" href="small.css" media="all">
     <link rel="stylesheet" type="text/css" href="middle.css" media="all">
     <link rel="stylesheet" type="text/css" href="large.css" media="all">
-    <title>Storm Center</title>
+    <script src="scripts.js"></script>
+    <title>Daily Fourcast</title>
 </head>
 <!--The body of the page start here - visible part-->
 
 <body>
+    <!--Header is here-->
     <header>
         <img src="weather.png" alt="Logo of the site.">
-        <section class="pagetitle">
+        <section id="pagetitle">
             <h1>Daily Fourcast</h1>
             <p>Where you first plan your day!</p>
         </section>
+
     </header>
     <!--Navigation is here-->
     <nav class="clearfix">
@@ -40,14 +43,30 @@
         </ul>
     </nav>
     <!--Central info is here-->
+
     <main>
+
+        <h1>Preston/Idaho</h1>
+        <section class="box">
+            <h2>Current Weather Story.</h2>
+        </section>
+        <section class="box">
+            <h2>Weather Condition.</h2>
+        </section>
+        <section class="box">
+            <h2>Town Information.</h2>
+        </section>
+
     </main>
+
+    <!--Footer is here-->
+
     <footer>
-        <p>&copy; The Weather Site | Preston Page | Degina R. de O. Fernandes |
-            <a href="https://www.byui.edu/online " target="_blank">BYUI 
+        <p>&copy; 2019 | Degina R. de O. Fernandes | deginapupt@hotmail.com |
+            <a href="https://www.byui.edu/online" target="_blank">BYUI 
                     Online Learning</a></p>
 
-        <div class="update ">
+        <div class="update">
             <script>
                 var today = new Date();
                 var dd = String(today.getDate()).padStart(2, '0');
@@ -59,14 +78,6 @@
             </script>
         </div>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.28/webfont.js "></script>
-    <script>
-        WebFont.load({
-            google: {
-                families: ["Big Shoulders Display ", "Racing Sans One "]
-            }
-        });
-    </script>
 </body>
 
 </html>

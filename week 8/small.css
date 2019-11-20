@@ -154,8 +154,7 @@ form fieldset label.send input {
     border-radius: 5px;
     padding: 10px 5px;
     margin: 15px 0px;
-    margin-left: 3px;
-    width: 96%;
+    width: 100%;
     max-width: 20rem;
 }
 

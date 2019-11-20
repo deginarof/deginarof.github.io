@@ -1,0 +1,8 @@
+    @media only screen and (min-width:600px) {
+        /*---------------Main--------------------*/
+        main p {
+            border-radius: 15px;
+            margin: 80px;
+            padding: 20px;
+        }
+    }

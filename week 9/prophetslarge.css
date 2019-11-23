@@ -1,0 +1,26 @@
+@media only screen and (min-width: 1025px) {
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        gap: 10px;
+        max-width: 100%;
+    }
+    nav {
+        background-color: rgb(71, 26, 5);
+        padding: 10px 10px 10px 20px;
+        border-top-right-radius: 300px;
+        max-width: 100%;
+        margin: 0px 10px;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    nav a:hover {
+        color: rgb(228, 215, 105);
+    }
+}

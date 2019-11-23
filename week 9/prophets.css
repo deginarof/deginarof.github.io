@@ -1,19 +1,36 @@
-              main {
-                  display: grid;
-                  grid-template-column: 1fr;
-                  background-color: rgb(228, 215, 105);
-                  border: 3px solid rgb(71, 26, 5);
-                  max-width: 300px;
-                  margin: 10px;
-              }
-              
-              h1,
-              h2 {
-                  font-family: 'Lobster', cursive;
-                  color: rgb(71, 26, 5);
-                  text-align: center;
-              }
-              
-              img {
-                  width: 200px;
-              }
+h1,
+h2 {
+    font-family: 'Lobster', cursive;
+    color: rgb(71, 26, 5);
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(17, 1fr);
+    border: 3px solid rgb(71, 26, 5);
+    background-color: rgb(228, 215, 105);
+    max-width: 300px;
+    margin: 10px;
+}
+
+img {
+    width: 200px;
+    margin-left: 50px;
+    box-shadow: 10px 10px 18px rgb(71, 26, 5);
+}
+
+footer>p {
+    color: rgb(71, 26, 5);
+    font-weight: bold;
+}
+
+.container {
+    border-top: 3px solid rgb(71, 26, 5);
+    border-bottom: 3px solid rgb(71, 26, 5);
+}

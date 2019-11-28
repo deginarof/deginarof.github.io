@@ -11,6 +11,7 @@ p {
 }
 
 h1 {
+    text-align: left;
     font-size: 28px;
     color: #ebd814;
     text-shadow: 6px 2px rgb(114, 101, 5);
@@ -22,6 +23,7 @@ ul {
 }
 
 h2 {
+    text-align: center;
     color: #d914eb;
 }
 
@@ -37,6 +39,7 @@ header>img {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: -5px;
+    border: none;
 }
 
 #pagetitle {
@@ -85,11 +88,16 @@ nav ul.hide {
 }
 
 main {
+    padding: 15px 10px;
+    margin: 18px 0px;
+    border: 3px solid #54bdb4;
+    border-radius: 15px;
     text-align: center;
 }
 
-main>img {
-    width: 10px;
+img {
+    width: 80%;
+    border: 8px dashed #ebd814;
 }
 
 nav,
@@ -109,9 +117,9 @@ h1 {
 }
 
 footer {
-    height: 95px;
+    height: 100px;
     margin-bottom: 15px;
-    padding-bottom: 1px;
+    padding-bottom: 10px;
     padding-top: 1px;
 }
 

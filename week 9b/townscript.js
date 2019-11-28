@@ -8,8 +8,8 @@ fetch(requestURL)
         for (let i = 1; i <= towns.length; i++) {
             if (towns[i].name === "Fish Haven") {
                 let card = document.createElement('section');
-                let h2 = document.createElement('h2');
-                let h3 = document.createElement('p');
+                let h2 = document.createElement('h1');
+                let h3 = document.createElement('h2');
                 let yearFounded = document.createElement('p');
                 let currentPopulation = document.createElement('p');
                 let averageRainfall = document.createElement('p');
@@ -33,8 +33,8 @@ fetch(requestURL)
             }
             if (towns[i].name === "Preston") {
                 let card = document.createElement('section');
-                let h2 = document.createElement('h2');
-                let h3 = document.createElement('p');
+                let h2 = document.createElement('h1');
+                let h3 = document.createElement('h2');
                 let yearFounded = document.createElement('p');
                 let currentPopulation = document.createElement('p');
                 let averageRainfall = document.createElement('p');
@@ -58,8 +58,8 @@ fetch(requestURL)
             }
             if (towns[i].name === "Soda Springs") {
                 let card = document.createElement('section');
-                let h2 = document.createElement('h2');
-                let h3 = document.createElement('p');
+                let h2 = document.createElement('h1');
+                let h3 = document.createElement('h2');
                 let yearFounded = document.createElement('p');
                 let currentPopulation = document.createElement('p');
                 let averageRainfall = document.createElement('p');

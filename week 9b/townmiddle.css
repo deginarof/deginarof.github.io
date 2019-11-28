@@ -1,0 +1,44 @@
+    @media only screen and (min-width: 608px) {
+        header>img {
+            border: none;
+        }
+        nav button {
+            display: none;
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a {
+            border: none;
+            border-right: 1px solid rgba(0, 0, 0, 0.3);
+            padding: .8rem 1rem;
+        }
+        nav ul.hide {
+            display: block;
+        }
+        nav>ul>li>a {
+            font-size: 17px;
+        }
+        header .pagetitle p {
+            font-size: 20px;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 25px;
+        }
+        main {
+            padding-bottom: 50px;
+            border: 5px solid #54bdb4;
+        }
+        img {
+            border: 10px dashed #ebd814;
+        }
+        img:hover {
+            border: 10px dashed #d914eb;
+        }
+    }

@@ -1,5 +1,5 @@
     @media only screen and (min-width: 608px) {
-        header>img {
+        body>header>img {
             border: none;
         }
         nav button {
@@ -16,9 +16,6 @@
         nav ul.hide {
             display: block;
         }
-        nav>ul>li>a {
-            font-size: 17px;
-        }
         header .pagetitle p {
             font-size: 20px;
         }
@@ -26,7 +23,7 @@
             font-size: 40px;
         }
         h2 {
-            font-size: 30px;
+            font-size: 25px;
         }
         p {
             font-size: 25px;
@@ -35,10 +32,18 @@
             padding-bottom: 50px;
             border: 5px solid #54bdb4;
         }
-        img {
+        #town>img {
+            height: 300px;
             border: 10px dashed #ebd814;
         }
         img:hover {
             border: 10px dashed #d914eb;
+        }
+        .mockups {
+            margin-top: 50px;
+            padding: 20px;
+        }
+        .mockups>li>a {
+            font-size: 25px;
         }
     }

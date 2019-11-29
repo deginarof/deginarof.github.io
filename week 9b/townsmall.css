@@ -11,7 +11,7 @@ p {
 }
 
 h1 {
-    text-align: left;
+    text-align: center;
     font-size: 28px;
     color: #ebd814;
     text-shadow: 6px 2px rgb(114, 101, 5);
@@ -100,14 +100,39 @@ img {
     border: 8px dashed #ebd814;
 }
 
+.mockups {
+    border: 3px solid #54bdb4;
+    border-radius: 15px;
+    background-color: #8bf7ee;
+    margin: 0px 15px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.mockups>li {
+    list-style-type: none;
+}
+
+.mockups>li>a {
+    text-decoration: none;
+    font-family: 'Big Shoulders Display', cursive;
+    text-align: center;
+    color: #d914eb;
+    font-weight: bold;
+}
+
+.mockups>li>a:hover {
+    color: #ebd814;
+}
+
+.mockups>li>a:active {
+    color: white;
+}
+
 nav,
 footer {
     background-color: #8bf7ee;
     box-shadow: 0 2px 15px gray;
-}
-
-h1 {
-    padding-left: 15px;
 }
 
 .box {

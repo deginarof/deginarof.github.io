@@ -36,7 +36,7 @@
             height: 300px;
             border: 10px dashed #ebd814;
         }
-        img:hover {
+        #town>img:hover {
             border: 10px dashed #d914eb;
         }
         .mockups {

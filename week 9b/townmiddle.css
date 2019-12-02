@@ -1,5 +1,6 @@
     @media only screen and (min-width: 608px) {
         body>header>img {
+            width: 25%;
             border: none;
         }
         nav button {
@@ -35,9 +36,6 @@
         main {
             padding-bottom: 50px;
             border: none;
-        }
-        #town>img {
-            border: 10px dashed #ebd814;
         }
         #town>img:hover {
             border: 10px dashed #d914eb;

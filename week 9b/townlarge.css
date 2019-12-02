@@ -1,7 +1,6 @@
     @media only screen and (min-width: 1025px) {
         body>header>img {
             width: 25%;
-            height: auto;
             border: none;
         }
         nav {
@@ -16,9 +15,6 @@
         }
         #pagetitle {
             border: none;
-        }
-        body>header>img {
-            width: 14%;
         }
         #pagetitle>h1 {
             font-size: 43px;
@@ -45,10 +41,6 @@
             gap: 15px;
             padding: 20px;
             margin-top: 30px;
-        }
-        #town>img {
-            width: 100%;
-            border: 10px dashed #ebd814;
         }
         section {
             grid: none;

@@ -19,6 +19,10 @@
         header .pagetitle p {
             font-size: 20px;
         }
+        #pagetitle {
+            border: none;
+            display: block;
+        }
         h1 {
             font-size: 40px;
         }
@@ -30,20 +34,39 @@
         }
         main {
             padding-bottom: 50px;
-            border: 5px solid #54bdb4;
+            border: none;
         }
         #town>img {
-            height: 300px;
             border: 10px dashed #ebd814;
         }
         #town>img:hover {
             border: 10px dashed #d914eb;
         }
+        section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            border: 5px solid #54bdb4;
+            border-radius: 15px;
+            margin: 15px;
+            padding: 20px 15px;
+        }
+        .towns>section>p {
+            text-align: center;
+        }
+        .towns>section>h2 {
+            text-align: center;
+        }
         .mockups {
+            grid: none;
             margin-top: 50px;
+            margin-left: 15px;
+            margin-right: 15px;
             padding: 20px;
         }
         .mockups>li>a {
             font-size: 25px;
+        }
+        footer {
+            margin-top: -10px;
         }
     }

@@ -1,0 +1,54 @@
+    @media only screen and (min-width: 1025px) {
+        body>header>img {
+            width: 100px;
+            border: none;
+        }
+        nav {
+            display: block;
+            margin-top: 25px;
+        }
+        header,
+        nav,
+        main,
+        footer {
+            margin: auto;
+        }
+        #pagetitle {
+            border: none;
+        }
+        #pagetitle>h1 {
+            font-size: 43px;
+        }
+        #pagetitle>p {
+            font-size: 30px;
+        }
+        nav>ul>li>a {
+            font-size: 20px;
+        }
+        main>h1 {
+            padding-left: 550px;
+            font-size: 40px;
+            margin-top: -2px;
+            color: #ebd814;
+        }
+        main {
+            border: none;
+        }
+        #town {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            gap: 15px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        main>.towns>section {
+            grid: none;
+            border: 5px solid #54bdb4;
+            border-radius: 15px;
+        }
+        img {
+            margin-left: 8%;
+            margin-right: 10%;
+        }
+    }

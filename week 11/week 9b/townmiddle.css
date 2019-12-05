@@ -1,0 +1,70 @@
+@media only screen and (min-width: 608px) {
+    body>header>img {
+        width: 100px;
+        border: none;
+    }
+    nav button {
+        display: none;
+    }
+    nav ul li {
+        float: left;
+    }
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        padding: .8rem 1rem;
+    }
+    nav ul.hide {
+        display: block;
+    }
+    header .pagetitle p {
+        font-size: 20px;
+    }
+    #pagetitle {
+        border: none;
+        display: block;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 25px;
+    }
+    main {
+        padding-bottom: 50px;
+        border: none;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    main>.towns>section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border: 5px solid #54bdb4;
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+    #town>img:hover {
+        border: 10px dashed #d914eb;
+    }
+    img {
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-bottom: 25px;
+    }
+    .mockups {
+        grid: none;
+        margin-top: 50px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 20px;
+    }
+    .mockups>li>a {
+        font-size: 25px;
+    }
+    footer {
+        margin-top: -10px;
+    }
+}

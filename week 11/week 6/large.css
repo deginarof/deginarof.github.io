@@ -1,0 +1,135 @@
+@media only screen and (min-width: 1025px) {
+    header,
+    nav,
+    main,
+    footer {
+        margin: auto;
+    }
+    nav ul li a {
+        padding: .6rem 1rem;
+    }
+    .weathersummary {
+        top: 340px;
+        left: 160px;
+        padding-top: 30px;
+    }
+    .weathersummary p {
+        font-size: 25px;
+        font-family: 'Racing Sans One', cursive;
+    }
+    .herosummary {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .herosummary .container img {
+        margin-bottom: 10px;
+    }
+    h1 {
+        margin-left: 100px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    .box0 {
+        border: none;
+        margin: 5px 100px 10px 100px;
+        padding-bottom: 85px;
+        padding-top: 20px;
+        box-shadow: 3px 3px 18px 3px gray;
+    }
+    .box1 {
+        border: none;
+        margin: 0px 100px 10px 100px;
+        padding: 5px 45px 10px 55px;
+        box-shadow: 3px 3px 18px 3px gray;
+    }
+    .box2 {
+        border: none;
+        margin: 0px 100px 10px 100px;
+        padding: 5px 45px 10px 50px;
+        box-shadow: 3px 3px 15px 3px gray;
+    }
+    .box3 {
+        border: none;
+        margin: 0px 100px 10px 100px;
+    }
+    .box3 {
+        height: 330px;
+        background-color: #e7d82cc4;
+        padding-top: 10px;
+        padding-bottom: 80px;
+        box-shadow: 3px 3px 15px 3px gray;
+    }
+    tbody tr td img {
+        width: 60px;
+        height: 60px;
+    }
+    table,
+    th,
+    td {
+        border: 3px solid white;
+    }
+    table {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 75px;
+    }
+    p {
+        font-size: 25px;
+    }
+    .house figure img {
+        float: left;
+        margin: 0px 20px 15px -35px;
+        box-shadow: none;
+        border: 5px solid #54bdb4;
+        border-radius: 10px;
+    }
+    .house h2 {
+        text-align: center;
+    }
+    .movie figure img {
+        float: right;
+        margin: 0px -30px 15px 15px;
+        box-shadow: none;
+        border: 5px solid #54bdb4;
+        border-radius: 10px;
+    }
+    figure img {
+        width: 300px;
+    }
+    .container2 img {
+        width: 500px;
+        margin-left: 15px;
+        margin-top: 20px;
+        float: left;
+    }
+    .contact {
+        float: left;
+        margin-top: 100px;
+        margin-left: 45px;
+    }
+    .contact h2 {
+        text-align: center;
+        margin-top: -40px;
+    }
+    .contact p {
+        font-size: 25px;
+        margin-top: 40px;
+        margin-left: 44px;
+        margin-right: 40px;
+    }
+    .contact img {
+        width: 25px;
+        height: 25px;
+        margin-left: 35px;
+    }
+    .mediasocial {
+        float: right;
+        margin-top: 260px;
+        margin-right: 45px;
+    }
+    footer {
+        margin-top: 15px;
+    }
+}

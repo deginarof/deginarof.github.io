@@ -1,0 +1,48 @@
+                                                                                @media only screen and (min-width: 608px) {
+                                                                                    nav button {
+                                                                                        display: none;
+                                                                                    }
+                                                                                    nav ul li {
+                                                                                        float: left;
+                                                                                    }
+                                                                                    nav ul li a {
+                                                                                        border: none;
+                                                                                        border-right: 1px solid rgba(0, 0, 0, 0.3);
+                                                                                        padding: .8rem 1rem;
+                                                                                    }
+                                                                                    nav ul.hide {
+                                                                                        display: block;
+                                                                                    }
+                                                                                    nav>ul>li>a {
+                                                                                        font-size: 17px;
+                                                                                    }
+                                                                                    header .pagetitle p {
+                                                                                        font-size: 20px;
+                                                                                    }
+                                                                                    p {
+                                                                                        margin-left: 40px;
+                                                                                        font-size: 25px;
+                                                                                    }
+                                                                                    main>h1 {
+                                                                                        margin-left: 60px;
+                                                                                    }
+                                                                                    figure>p {
+                                                                                        margin-right: 50px;
+                                                                                    }
+                                                                                    .weatherphotos {
+                                                                                        display: grid;
+                                                                                        grid-template-columns: 1fr 1fr;
+                                                                                        column-gap: 15px;
+                                                                                        padding-left: 20px;
+                                                                                    }
+                                                                                    figure>img {
+                                                                                        width: 200px;
+                                                                                        border: 8px solid #8bf7ee;
+                                                                                    }
+                                                                                    figure>img:hover {
+                                                                                        border: 8px solid #D814EB;
+                                                                                    }
+                                                                                    footer p {
+                                                                                        font-size: 20px;
+                                                                                    }
+                                                                                }

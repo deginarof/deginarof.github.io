@@ -1,0 +1,62 @@
+        @media only screen and (min-width: 1025px) {
+            header,
+            nav,
+            main,
+            footer {
+                margin: auto;
+            }
+            .pagetitle>h1 {
+                font-size: 43px;
+            }
+            .pagetitle>p {
+                font-size: 30px;
+            }
+            nav>ul>li>a {
+                font-size: 20px;
+            }
+            main>h1 {
+                font-size: 40px;
+                margin-left: 150px;
+                margin-top: -2px;
+                color: #ebd814;
+                ;
+            }
+            nav {
+                display: block;
+                margin-top: 25px;
+            }
+            p {
+                margin-left: 40px;
+                font-size: 50px;
+            }
+            main {
+                margin-top: 25px;
+                background-color: #ffffff;
+                padding-bottom: 25px;
+                margin: 15px 0px 15px 0px;
+            }
+            .weatherphotos {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 15px;
+                background-image: url(sunnyday.jpg);
+                box-shadow: 0 2px 15px gray;
+                padding-left: 110px;
+                padding-top: 25px;
+            }
+            figure>img {
+                width: 250px;
+                border: 8px dashed #ebd814;
+            }
+            figure>p {
+                font-size: 25px;
+                margin-right: 100px;
+            }
+            .hover:hover {
+                border: none;
+                box-shadow: 0 0 50px #D814EB;
+            }
+            footer>p {
+                font-size: 25px;
+            }
+        }

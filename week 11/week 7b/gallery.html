@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!--Page info here-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Degina R. de O. Fernandes">
+    <meta name="description" content="Degina´s Assignment for CIT 230.
+             WEB Frontend Develpment at Brigham Young University - Idaho">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="small.css" media="all">
+    <link rel="stylesheet" type="text/css" href="middle.css" media="all">
+    <link rel="stylesheet" type="text/css" href="large.css" media="all">
+    <title>Gallery</title>
+</head>
+<!--The body of the page start here - visible part-->
+
+<body>
+    <header>
+        <img src="weather.png" alt="Logo of the site.">
+        <section class="pagetitle">
+            <h1>Daily Fourcast</h1>
+            <p>Where you first plan your day!</p>
+        </section>
+    </header>
+    <!--Navigation is here-->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html" target="_blank">Home</a></li>
+            <li class="active"><a href="/week 5/index.html" target="_blank">Preston</a></li>
+            <li><a href="" target="_blank">Soda Spring</a></li>
+            <li><a href="" target="_blank">Fish Haven</a></li>
+            <li><a href="" target="_blank">Storm Center</a></li>
+            <li><a href="/week 7b/gallery.html" target="_blank">Gallery</a></li>
+        </ul>
+    </nav>
+    <!--Central info is here-->
+    <main>
+        <h1>Weather Gallery</h1>
+        <section class="weatherphotos">
+            <figure>
+                <img class="hover" src="https://via.placeholder.com/800/D814EB/EBD814/.jpg?text=Placeholder" data-src="brightweather800.jpg" alt="Bright Weather">
+                <p>A beautiful Sky in Utah today.</p>
+            </figure>
+            <figure>
+                <img class="hover" src="https://via.placeholder.com/800/D814EB/EBD814/.jpg?text=Placeholder" data-src="cloudyweather800.jpg" alt="Cloudy Weather">
+                <p>The clouds are just a plus to this gorgeous view.</p>
+            </figure>
+            <figure>
+                <img class="hover" src="https://via.placeholder.com/800/D814EB/EBD814/.jpg?text=Placeholder" data-src="foggyweather800.jpg" alt="Foggy Weather">
+                <p>Be careful while walking on the street this morning.</p>
+            </figure>
+            <figure>
+                <img class="hover" src="https://via.placeholder.com/800/D814EB/EBD814/.jpg?text=Placeholder" data-src="rainyweather800.jpg " alt="Rainy Weather">
+                <p>The strong rainning today is causing some headaches to the citizen of Utah.</p>
+            </figure>
+            <figure>
+                <img class="hover" src="https://via.placeholder.com/800/D814EB/EBD814/.jpg?text=Placeholder" data-src="snowsquallsweather800.jpg " alt="Snow Squalls">
+                <p>A special event from mother nature.</p>
+            </figure>
+            <figure>
+                <img class="hover" src="https://via.placeholder.com/800/D814EB/EBD814/.jpg?text=Placeholder" data-src="snowyweather800.jpg" alt="Snowy Weather">
+                <p>The snow finally arrived.</p>
+            </figure>
+            <figure>
+                <img class="hover" src="https://via.placeholder.com/800/D814EB/EBD814/.jpg?text=Placeholder" data-src="stormyweather800.jpg" alt="Stormy Weather">
+                <p>Lightnings can be seeing out there this afternoon</p>
+            </figure>
+            <figure>
+                <img class="hover" src="https://via.placeholder.com/800/D814EB/EBD814/.jpg?text=Placeholder" data-src="sunnyweatherBYCT800.jpg" alt="Brigham Young City Temple in a Sunny Day">
+                <p>A beautiful view from the Brigham Young City Tmeple.</p>
+            </figure>
+            <figure>
+                <img class="hover" src="https://via.placeholder.com/800/D814EB/EBD814/.jpg?text=Placeholder" data-src="windweather800.jpg" alt="Windy Weather">
+                <p>The wind is strong this afteroon.</p>
+            </figure>
+        </section>
+    </main>
+    <script src="script.js">
+    </script>
+    <footer>
+        <p>&copy; The Weather Site | Preston Page | Degina R. de O. Fernandes |
+            <a href="https://www.byui.edu/online " target="_blank">BYUI 
+                    Online Learning</a></p>
+
+        <div class="update ">
+            <script>
+                var today = new Date();
+                var dd = String(today.getDate()).padStart(2, '0');
+                var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+                var yyyy = today.getFullYear();
+
+                today = mm + '/' + dd + '/' + yyyy;
+                document.write(today);
+            </script>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.28/webfont.js "></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ["Big Shoulders Display ", "Racing Sans One "]
+            }
+        });
+    </script>
+</body>
+
+</html>

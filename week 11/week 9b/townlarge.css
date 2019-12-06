@@ -1,11 +1,23 @@
     @media only screen and (min-width: 1025px) {
-        body>header>img {
+        header img {
             width: 100px;
-            border: none;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 15px;
         }
-        nav {
+        nav button {
+            display: none;
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a {
+            border: none;
+            border-right: 1px solid rgba(0, 0, 0, 0.3);
+            padding: .8rem 1rem;
+        }
+        nav ul.hide {
             display: block;
-            margin-top: 25px;
         }
         header,
         nav,

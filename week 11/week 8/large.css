@@ -1,6 +1,17 @@
 @media only screen and (min-width: 1025px) {
+    nav button {
+        display: none;
+    }
+    nav ul li {
+        float: left;
+    }
     nav ul li a {
-        font-size: 20px;
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        padding: .8rem 1rem;
+    }
+    nav ul.hide {
+        display: block;
     }
     main {
         margin: 0px 190px;

@@ -1,7 +1,9 @@
 @media only screen and (min-width: 608px) {
-    body>header>img {
+    header img {
         width: 100px;
-        border: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 15px;
     }
     nav button {
         display: none;
@@ -18,7 +20,10 @@
         display: block;
     }
     header .pagetitle p {
-        font-size: 20px;
+        font-size: 15px;
+        text-align: left;
+        margin-left: 15px;
+        margin-right: 10px;
     }
     #pagetitle {
         border: none;

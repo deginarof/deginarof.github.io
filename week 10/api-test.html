@@ -1,26 +1,93 @@
 <!DOCTYPE html>
 <html lang="en-US">
+<!--Page info here-->
 
 <head>
     <meta charset="utf-8">
     <meta name="author" content="Degina R. de O. Fernandes">
     <meta name="description" content="Degina´s Assignment for CIT 230.
-     WEB Frontend Develpment at Brigham Young University - Idaho">
+             WEB Frontend Develpment at Brigham Young University - Idaho">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>API´s Test </title>
+    <link href="https://fonts.googleapis.com/css?family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="small.css" media="all">
+    <link rel="stylesheet" type="text/css" href="middle.css" media="all">
+    <script src="scripts.js"></script>
+    <title>Api´s Test</title>
 </head>
+<!--The body of the page start here - visible part-->
 
 <body>
-    <header></header>
-    <nav></nav>
+    <!--Header is here-->
+    <header>
+        <img src="weather.png" alt="Logo of the site.">
+        <section class="pagetitle">
+            <h1>Daily Fourcast</h1>
+            <p>Where you first plan your day!</p>
+        </section>
+    </header>
+    <!--Navigation is here-->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="/week 9b/townindex.html" target="_blank">Home</a></li>
+            <li class="active"><a href="/week 11/week 5/index.html" target="_blank">Preston</a></li>
+            <li><a href="" target="_blank">Soda Spring</a></li>
+            <li><a href="" target="_blank">Fish Haven</a></li>
+            <li><a href="/week 11/week 8/stormcenter.html" target="_blank">Storm Center</a></li>
+            <li><a href="/week 11/week 7b/gallery.html" target="_blank">Gallery</a></li>
+        </ul>
+    </nav>
+    <!--Central info is here-->
+
     <main>
-        <h1>OpenWeatherMap.org API Test</h1>
+        <h1>API Test</h1>
         <p>The current temperature in Preston, Idaho is <span id="current-temp"></span>&deg; F</p>
         <hr>
         <p>Image Icon Path Test: <span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon"></p>
     </main>
-    <footer></footer>
+
     <script src="weatherapi.js"></script>
+    <footer>
+        <p>&copy; The Weather Site | Preston Page | Degina R. de O. Fernandes |
+            <a href="https://www.byui.edu/online " target="_blank">BYUI 
+                    Online Learning</a></p>
+
+        <div class="update ">
+            <script>
+                var today = new Date();
+                var dd = String(today.getDate()).padStart(2, '0');
+                var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+                var yyyy = today.getFullYear();
+
+                today = mm + '/' + dd + '/' + yyyy;
+                document.write(today);
+            </script>
+        </div>
+    </footer>
+    <script>
+        const nToday = new Date();
+        console.log(nToday);
+        const dayNumber = nToday.getDay();
+        console.log(dayNumber);
+        const element = document.getElementById("message")
+        if (dayNumber == 6) {
+            element.classList.add("showme")
+        } else {
+            element.classList.add("hideme")
+        }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.28/webfont.js"></script>
+    </script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ["Big Shoulders Display", "Racing Sans One"]
+            }
+        });
+    </script>
 </body>
 
 </html>

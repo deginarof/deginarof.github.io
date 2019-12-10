@@ -29,10 +29,10 @@
     .herosummary {
         margin-bottom: 15px;
     }
-    .box0 {
+    .weatherforecast {
         display: block;
     }
-    .box0 {
+    .weatherforecast {
         background-color: #e7d82cc4;
         margin-bottom: 10px;
         padding: 20px;
@@ -68,10 +68,7 @@
     }
     .container2 img {
         display: inline;
-        width: 300px;
         margin-left: 20px;
-        margin-top: 15px;
-        float: left;
     }
     .contact {
         float: left;

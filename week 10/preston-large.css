@@ -61,11 +61,6 @@
         width: 100px;
         height: 100px;
     }
-    table,
-    th,
-    td {
-        border: 5px solid #54bdb4;
-    }
     table {
         text-align: center;
         margin-left: 100px;

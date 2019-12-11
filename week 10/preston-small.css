@@ -42,13 +42,6 @@
                             color: #d914eb;
                         }
                         
-                        header .pagetitle p {
-                            font-size: 15px;
-                            text-align: left;
-                            margin-left: 15px;
-                            margin-right: 10px;
-                        }
-                        
                         header .pagetitle h1 {
                             margin-left: 15px;
                             font-size: 30px;
@@ -91,7 +84,7 @@
                             padding: .8rem 2%;
                             text-decoration: none;
                             color: black;
-                            font-size: 15px;
+                            font-size: 20px;
                             border-top: 1px solid rgba(0, 0, 0, 0.3);
                         }
                         

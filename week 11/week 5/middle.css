@@ -68,10 +68,7 @@
     }
     .container2 img {
         display: inline;
-        width: 300px;
         margin-left: 20px;
-        margin-top: 15px;
-        float: left;
     }
     .contact {
         float: left;

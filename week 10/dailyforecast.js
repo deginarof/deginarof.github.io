@@ -11,7 +11,7 @@ weekday[4] = "Thursday";
 weekday[5] = "Friday";
 weekday[6] = "Saturday";
 console.log(weekday[todayDayNumber]);
-const apiURL = "api.openweathermap.org/data/2.5/forecast?id=5604473&units-imperial&APPID=efef4e51c7aa99beb077464dad90cb14"
+const apiURL = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&units-imperial&APPID=efef4e51c7aa99beb077464dad90cb14";
 fetch(apiURL)
     .then((response => {
         console.log(weatherInfo);

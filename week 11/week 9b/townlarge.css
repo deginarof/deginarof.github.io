@@ -1,10 +1,4 @@
     @media only screen and (min-width: 1025px) {
-        header .pagetitle p {
-            font-size: 15px;
-            text-align: left;
-            margin-left: 45px;
-            margin-right: 10px;
-        }
         nav button {
             display: none;
         }
@@ -25,13 +19,13 @@
         footer {
             margin: auto;
         }
-        #pagetitle {
+        .pagetitle {
             border: none;
         }
-        #pagetitle>h1 {
+        .pagetitle>h1 {
             font-size: 43px;
         }
-        #pagetitle>p {
+        .pagetitle>p {
             font-size: 30px;
         }
         nav>ul>li>a {

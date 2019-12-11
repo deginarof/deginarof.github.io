@@ -14,8 +14,8 @@
                         
                         .weathersummary {
                             position: absolute;
-                            top: 20px;
-                            left: 45px;
+                            top: 7px;
+                            left: 15px;
                             background-color: rgba(22, 155, 144, 0.61);
                             padding-left: 30px;
                             padding-right: 30px;
@@ -150,7 +150,7 @@
                             box-shadow: 0 2px 15px gray;
                         }
                         
-                        .weatherforecast {
+                        .five-day-table {
                             display: none;
                         }
                         

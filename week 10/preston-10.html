@@ -15,7 +15,6 @@
     <link rel="stylesheet" type="text/css" href="preston-small.css" media="all">
     <link rel="stylesheet" type="text/css" href="preston-middle.css" media="all">
     <link rel="stylesheet" type="text/css" href="preston-large.css" media="all">
-    <script src="preston-script.js"></script>
     <title>Daily Fourcast</title>
 </head>
 <!--The body of the page start here - visible part-->
@@ -53,13 +52,38 @@
             <section class="weathersummary ">
                 <h3>Weather Summary</h3>
                 <p>Currently: <span id="description"></span></p>
-                <p>Current Temperature: <span id="current-temp"></span>&deg; F</p>
-                <p>Wind Chilli: <span id="chill"></span>&deg; F</p>
+                <p>Current Temperature: <span id="currenTemp"></span>&deg; F</p>
+                <p>Wind Chill: <span id="chill">N/A</span>&deg; F</p>
                 <p>Humidity: <span id="humidity"></span>&deg; F</p>
                 <p>Wind Speed: <span id="speed"></span>&deg; F</p>
             </section>
         </section>
-        <section class="weatherforecast"></section>
+        <section class="box0">
+            <table class="five-day-table">
+                <tr>
+                    <th id="day1-day"></th>
+                    <th id="day2-day"></th>
+                    <th id="day3-day"></th>
+                    <th id="day4-day"></th>
+                    <th id="day5-day"></th>
+                </tr>
+                <tr>
+                    <td><img id="day1-icon" src="" alt=""></td>
+                    <td><img id="day2-icon" src="" alt=""></td>
+                    <td><img id="day3-icon" src="" alt=""></td>
+                    <td><img id="day4-icon" src="" alt=""></td>
+                    <td><img id="day5-icon" src="" alt=""></td>
+                </tr>
+                <tr>
+                    <td><span id="day1-temp"></span>&deg;F</td>
+                    <td><span id="day2-temp"></span>&deg;F</td>
+                    <td><span id="day3-temp"></span>&deg;F</td>
+                    <td><span id="day4-temp"></span>&deg;F</td>
+                    <td><span id="day5-temp"></span>&deg;F</td>
+                </tr>
+            </table>
+
+        </section>
         <section class="box1">
             <section class="house">
                 <figure>
@@ -120,8 +144,6 @@
     </main>
 
     <!--Footer is here-->
-    <script src="prestonsummary-script.js"></script>
-    <script src="dailyforecast.js"></script>
     <footer>
         <p>&copy; The Weather Site | Preston Page | Degina R. de O. Fernandes |
             <a href="https://www.byui.edu/online " target="_blank">BYUI 
@@ -151,10 +173,17 @@
             element.classList.add("hideme")
         }
     </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.28/webfont.js"></script>
-
-    WebFont.load({ google: { families: ["Big Shoulders Display", "Racing Sans One"] } });
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.28/webfont.js">
+        WebFont.load({
+            google: {
+                families: ["Big Shoulders Display", "Racing Sans One"]
+            }
+        });
     </script>
+    <script src="preston-script.js"></script>
+    <script src="prestonsummary-script.js"></script>
+    <script src="windchill.js"></script>
+    <script src="forecast.js"></script>
 </body>
 
 </html>

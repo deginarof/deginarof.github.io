@@ -11,11 +11,10 @@
     <link href="https://fonts.googleapis.com/css?family=Racing+Sans+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" type="text/css" href="small.css" media="all">
-    <link rel="stylesheet" type="text/css" href="middle.css" media="all">
-    <link rel="stylesheet" type="text/css" href="large.css" media="all">
-    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="preston-normalize.css">
+    <link rel="stylesheet" type="text/css" href="preston-small.css" media="all">
+    <link rel="stylesheet" type="text/css" href="preston-middle.css" media="all">
+    <link rel="stylesheet" type="text/css" href="preston-large.css" media="all">
     <title>Daily Fourcast</title>
 </head>
 <!--The body of the page start here - visible part-->
@@ -34,11 +33,11 @@
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
             <li><a href="/week 9b/townindex.html" target="_blank">Home</a></li>
-            <li class="active"><a href="/week 11/week 5/index.html" target="_blank">Preston</a></li>
+            <li class="active"><a href="/week 5/index.html" target="_blank">Preston</a></li>
             <li><a href="" target="_blank">Soda Spring</a></li>
             <li><a href="" target="_blank">Fish Haven</a></li>
-            <li><a href="/week 11/week 8/stormcenter.html" target="_blank">Storm Center</a></li>
-            <li><a href="/week 11/week 7b/gallery.html" target="_blank">Gallery</a></li>
+            <li><a href="/week 8/stormcenter.html" target="_blank">Storm Center</a></li>
+            <li><a href="/week 7b/gallery.html" target="_blank">Gallery</a></li>
         </ul>
     </nav>
     <!--Central info is here-->
@@ -52,61 +51,36 @@
             </section>
             <section class="weathersummary ">
                 <h3>Weather Summary</h3>
-                <p>Currently: Sunny</p>
-                <p>High: 76 ºF</p>
-                <p>Wind Chilli: ºF</p>
-                <p>Humidity: 69%</p>
-                <p>Wind Speed: 5mph</p>
+                <p>Currently: <span id="description"></span></p>
+                <p>Current Temperature: <span id="currenTemp"></span>&deg; F</p>
+                <p>Wind Chill: <span id="chill">N/A</span>&deg; F</p>
+                <p>Humidity: <span id="humidity"></span>&deg; F</p>
+                <p>Wind Speed: <span id="speed"></span>&deg; F</p>
             </section>
         </section>
         <section class="box0">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Mon</th>
-                        <th>Tues</th>
-                        <th>Wed</th>
-                        <th>Thur</th>
-                        <th>Frid</th>
-                        <th>Sat</th>
-                        <th>Sun</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            <img src="sunicon.png" alt="Sun 1">
-                        </td>
-                        <td>
-                            <img src="sunicon.png" alt="Sun 2">
-                        </td>
-                        <td>
-                            <img src="sunicon.png" alt="Sun 3">
-                        </td>
-                        <td>
-                            <img src="sunicon.png" alt="Sun 4">
-                        </td>
-                        <td>
-                            <img src="sunicon.png" alt="Sun 5">
-                        </td>
-                        <td>
-                            <img src="sunicon.png" alt="Sun 6">
-                        </td>
-                        <td>
-                            <img src="sunicon.png" alt="Sun 7">
-                        </td>
-
-                    </tr>
-                    <tr>
-                        <td>90°F</td>
-                        <td>85°F</td>
-                        <td>82°F</td>
-                        <td>89°F</td>
-                        <td>80°F</td>
-                        <td>75°F</td>
-                        <td>78°F</td>
-                    </tr>
-                </tbody>
+            <table class="five-day-table">
+                <tr>
+                    <th id="day1-day"></th>
+                    <th id="day2-day"></th>
+                    <th id="day3-day"></th>
+                    <th id="day4-day"></th>
+                    <th id="day5-day"></th>
+                </tr>
+                <tr>
+                    <td><img id="day1-icon" src="" alt=""></td>
+                    <td><img id="day2-icon" src="" alt=""></td>
+                    <td><img id="day3-icon" src="" alt=""></td>
+                    <td><img id="day4-icon" src="" alt=""></td>
+                    <td><img id="day5-icon" src="" alt=""></td>
+                </tr>
+                <tr>
+                    <td><span id="day1-temp"></span>&deg;F</td>
+                    <td><span id="day2-temp"></span>&deg;F</td>
+                    <td><span id="day3-temp"></span>&deg;F</td>
+                    <td><span id="day4-temp"></span>&deg;F</td>
+                    <td><span id="day5-temp"></span>&deg;F</td>
+                </tr>
             </table>
 
         </section>
@@ -140,7 +114,7 @@
         <!--The Map and info goes here-->
         <section class="box3">
             <section class="container2">
-                <img src="prestonmap.svg" alt=" Preston City Map ">
+                <img src="prestonmap.png" alt=" Preston City Map ">
                 <!--Contact Info goes here-->
                 <div class="contact">
                     <h2>Daily Fourcast</h2>
@@ -170,11 +144,11 @@
     </main>
 
     <!--Footer is here-->
-
     <footer>
         <p>&copy; The Weather Site | Preston Page | Degina R. de O. Fernandes |
             <a href="https://www.byui.edu/online " target="_blank">BYUI 
-                    Online Learning</a></p>
+                    Online Learning</a> | <a href="https://openweathermap.org/api" target="_blank">Empowered by Open Weather</a></p>
+
 
         <div class="update ">
             <script>
@@ -200,15 +174,17 @@
             element.classList.add("hideme")
         }
     </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.28/webfont.js"></script>
-    </script>
-    <script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.28/webfont.js">
         WebFont.load({
             google: {
                 families: ["Big Shoulders Display", "Racing Sans One"]
             }
         });
     </script>
+    <script src="preston-script.js"></script>
+    <script src="prestonsummary-script.js"></script>
+    <script src="windchill.js"></script>
+    <script src="forecast.js"></script>
 </body>
 
 </html>

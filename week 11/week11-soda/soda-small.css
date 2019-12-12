@@ -14,8 +14,8 @@
                         
                         .weathersummary {
                             position: absolute;
-                            top: 20px;
-                            left: 45px;
+                            top: 6px;
+                            left: 15px;
                             background-color: rgba(22, 155, 144, 0.61);
                             padding-left: 30px;
                             padding-right: 30px;
@@ -40,13 +40,6 @@
                         
                         h2 {
                             color: #d914eb;
-                        }
-                        
-                        header .pagetitle p {
-                            font-size: 15px;
-                            text-align: left;
-                            margin-left: 15px;
-                            margin-right: 10px;
                         }
                         
                         header .pagetitle h1 {
@@ -91,7 +84,7 @@
                             padding: .8rem 2%;
                             text-decoration: none;
                             color: black;
-                            font-size: 15px;
+                            font-size: 20px;
                             border-top: 1px solid rgba(0, 0, 0, 0.3);
                         }
                         
@@ -150,7 +143,7 @@
                             box-shadow: 0 2px 15px gray;
                         }
                         
-                        .box0 {
+                        .five-day-table {
                             display: none;
                         }
                         
@@ -225,7 +218,7 @@
                         }
                         
                         footer {
-                            height: 95px;
+                            height: 130px;
                             margin-bottom: 18px;
                             padding: 1px 1px 10px 1px;
                         }

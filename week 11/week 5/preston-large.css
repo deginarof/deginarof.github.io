@@ -8,11 +8,8 @@
     nav ul li a {
         padding: .6rem 1rem;
     }
-    nav ul li a {
-        font-size: 20px;
-    }
     .weathersummary {
-        top: 30px;
+        top: 23px;
         left: 150px;
     }
     .weathersummary p {
@@ -30,7 +27,12 @@
     h1 {
         margin-left: 100px;
     }
-    .box0,
+    .five-day-table {
+        border: none;
+        margin: 0px 100px 10px 100px;
+        padding: 40px 200px 40px 285px;
+        box-shadow: 3px 3px 18px 3px gray;
+    }
     .box1 {
         border: none;
         margin: 0px 100px 10px 100px;
@@ -56,18 +58,13 @@
         box-shadow: 3px 3px 15px 3px gray;
     }
     tbody tr td img {
-        width: 60px;
-        height: 60px;
-    }
-    table,
-    th,
-    td {
-        border: 2px solid white;
+        width: 100px;
+        height: 100px;
     }
     table {
         text-align: center;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 100px;
+        margin-right: 100px;
         margin-top: 30px;
     }
     .house figure img {
@@ -97,8 +94,7 @@
         float: left;
     }
     .contact {
-        float: right;
-        margin-top: 38px;
+        margin-top: 36px;
         margin-left: 15px;
     }
     .contact h2 {
@@ -117,7 +113,7 @@
     }
     .mediasocial {
         float: right;
-        margin-top: 0px;
+        margin-top: 260px;
         margin-right: 45px;
     }
     footer {

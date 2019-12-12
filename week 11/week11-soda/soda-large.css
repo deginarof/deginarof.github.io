@@ -36,13 +36,13 @@
     .box1 {
         border: none;
         margin: 0px 100px 10px 100px;
-        padding: 5px 0px 45px 15px;
+        padding: 5px 0px 120px 15px;
         box-shadow: 3px 3px 18px 3px gray;
     }
     .box2 {
         border: none;
         margin: 0px 100px 10px 100px;
-        padding: 5px 0px 117px 50px;
+        padding: 5px 0px 170px 50px;
         box-shadow: 3px 3px 15px 3px gray;
     }
     .box3 {
@@ -57,7 +57,7 @@
         box-shadow: 3px 3px 15px 3px gray;
     }
     .five-day-table {
-        padding-left: 115px;
+        margin-left: 100px;
     }
     tbody tr td img {
         width: 100px;
@@ -79,11 +79,11 @@
     .cave h2,
     .cave p {
         text-align: left;
-        margin-right: 30px;
+        margin-right: 40px;
     }
     .geyser figure img {
         float: right;
-        margin: 48px 0px 30px 20px;
+        margin: 48px 0px 50px 20px;
         box-shadow: none;
         border: 5px solid #54bdb4;
         border-radius: 10px;
@@ -124,8 +124,12 @@
     }
     .mediasocial {
         float: right;
-        margin-top: 300px;
-        margin-right: 45px;
+        margin-top: 220px;
+        margin-right: 30px;
+    }
+    .mediasocial>li>a>img {
+        width: 40px;
+        height: 40px;
     }
     footer {
         margin-top: 15px;

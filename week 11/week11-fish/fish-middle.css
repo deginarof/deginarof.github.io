@@ -38,7 +38,7 @@
         padding-left: 115px;
     }
     .box3 {
-        height: 270px;
+        height: 202px;
         margin-bottom: 15px;
         padding-top: 30px;
     }
@@ -73,10 +73,13 @@
         margin: 10px 0px 10px 170px;
         box-shadow: 3px 3px 15px 3px black;
     }
+    h1 {
+        margin-left: 50px;
+    }
     .container2 img {
         width: 300px;
         display: inline-flex;
-        margin-left: 50px;
+        margin-left: 48px;
         margin-bottom: 0px;
     }
     .contact {
@@ -102,6 +105,9 @@
     }
     .mediasocial li img {
         display: inline;
+        width: 40px;
+        height: 40px;
+        margin-top: 150px;
     }
     footer {
         height: 85px;

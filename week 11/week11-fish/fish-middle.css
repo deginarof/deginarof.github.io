@@ -1,0 +1,117 @@
+@media only screen and (min-width: 38em) {
+    header .pagetitle p {
+        font-size: 15px;
+        text-align: left;
+        margin-left: 45px;
+        margin-right: 10px;
+    }
+    nav button {
+        display: none;
+    }
+    nav ul li {
+        float: left;
+    }
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        padding: .8rem 1rem;
+    }
+    nav ul.hide {
+        display: block;
+    }
+    .weathersummary {
+        top: 20px;
+        left: 45px;
+    }
+    .weathersummary p {
+        font-size: 20px;
+    }
+    .herosummary {
+        margin-left: 0;
+    }
+    .five-day-table {
+        display: block;
+        border: none;
+        background-color: #e7d82cc4;
+        margin-bottom: 10px;
+        padding: 20px;
+        padding-left: 115px;
+    }
+    .box3 {
+        height: 270px;
+        margin-bottom: 15px;
+        padding-top: 30px;
+    }
+    th,
+    td {
+        font-family: 'Big Shoulders Display', cursive;
+        font-weight: bold;
+    }
+    th {
+        color: #d914eb;
+    }
+    tbody tr td img {
+        display: auto;
+        width: 100px;
+        height: 100px;
+    }
+    table,
+    th,
+    td {
+        display: auto;
+        border: 5px solid #54bdb4;
+    }
+    table {
+        display: auto;
+        border-collapse: collapse;
+    }
+    p {
+        font-size: 19px;
+    }
+    figure img {
+        width: 300px;
+        margin: 10px 0px 10px 170px;
+        box-shadow: 3px 3px 15px 3px black;
+    }
+    .container2 img {
+        width: 300px;
+        display: inline-flex;
+        margin-left: 50px;
+        margin-bottom: 0px;
+    }
+    .contact {
+        float: left;
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    .contact h2 {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .contact p {
+        font-size: 17px;
+    }
+    .contact img {
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+    }
+    .mediasocial {
+        margin-right: 15px;
+        margin-top: 0px;
+    }
+    .mediasocial li img {
+        display: inline;
+    }
+    footer {
+        height: 85px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+        padding-left: 0px;
+        padding-bottom: 20px;
+        padding-top: 1px;
+    }
+    footer p {
+        font-size: 22px;
+    }
+}

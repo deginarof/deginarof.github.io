@@ -152,8 +152,10 @@
                             box-shadow: 0 2px 15px gray;
                         }
                         
+                        main>.box0,
                         .five-day-table {
                             display: none;
+                            border: none;
                         }
                         
                         .box1,

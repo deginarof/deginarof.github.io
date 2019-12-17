@@ -37,14 +37,15 @@
         margin-bottom: 10px;
         padding: 20px;
         padding-left: 115px;
-    }
-    .five-day-table {
         border: none;
     }
     .box3 {
         height: 250px;
         margin-bottom: 15px;
         padding-top: 30px;
+    }
+    main>.box0 {
+        border: none;
     }
     th,
     td {

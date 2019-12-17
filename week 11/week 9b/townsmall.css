@@ -23,20 +23,32 @@ h2 {
     color: #d914eb;
 }
 
+header .pagetitle p {
+    font-size: 20px;
+    text-align: left;
+    margin-left: -110px;
+    margin-right: 10px;
+    margin-top: -30px;
+}
+
+header .pagetitle h1 {
+    margin-left: -120px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
 header {
     display: flex;
     align-content: center;
     justify-content: center;
 }
 
-header>img {
+header img {
     width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
     border: none;
-}
-
-.pagetitle>h1 {
-    margin-left: -100px;
-    padding-left: none;
 }
 
 nav {

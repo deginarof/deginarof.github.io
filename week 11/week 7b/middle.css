@@ -9,6 +9,7 @@
                                                                                         border: none;
                                                                                         border-right: 1px solid rgba(0, 0, 0, 0.3);
                                                                                         padding: .8rem 1rem;
+                                                                                        font-size: 20px;
                                                                                     }
                                                                                     nav ul.hide {
                                                                                         display: block;
@@ -21,7 +22,7 @@
                                                                                         font-size: 25px;
                                                                                     }
                                                                                     main>h1 {
-                                                                                        margin-left: 60px;
+                                                                                        margin-left: 28px;
                                                                                     }
                                                                                     figure>p {
                                                                                         margin-right: 50px;

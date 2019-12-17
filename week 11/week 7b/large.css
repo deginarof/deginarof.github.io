@@ -6,10 +6,10 @@
                 margin: auto;
             }
             .pagetitle>h1 {
-                font-size: 43px;
+                font-size: 30px;
             }
             .pagetitle>p {
-                font-size: 30px;
+                font-size: 20px;
             }
             nav button {
                 display: none;
@@ -30,6 +30,7 @@
                 font-size: 50px;
             }
             main {
+                border: none;
                 margin-top: 25px;
                 background-color: #ffffff;
                 padding-bottom: 25px;
@@ -39,9 +40,8 @@
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr;
                 column-gap: 15px;
-                background-image: url(sunnyday.jpg);
                 box-shadow: 0 2px 15px gray;
-                padding-left: 110px;
+                padding-left: 25px;
                 padding-top: 25px;
             }
             figure>img {

@@ -15,23 +15,21 @@
                             font-family: 'Racing Sans One', cursive;
                         }
                         
-                        main>h1 {
-                            color: #8bf7ee;
-                        }
-                        
                         h2 {
                             color: #d914eb;
                         }
                         
                         header .pagetitle p {
-                            font-size: 15px;
+                            font-size: 20px;
                             text-align: left;
-                            margin-left: 15px;
+                            margin-left: 25px;
                             margin-right: 10px;
+                            margin-top: -20px;
                         }
                         
                         header .pagetitle h1 {
                             margin-left: 15px;
+                            margin-top: 30px;
                             font-size: 30px;
                         }
                         
@@ -93,13 +91,6 @@
                             margin-left: 45px;
                         }
                         
-                        main {
-                            background-color: #e7d72c88;
-                            padding-bottom: 15px;
-                            padding-top: 10px;
-                            margin-top: 15px;
-                        }
-                        
                         main>h1 {
                             margin-left: 42px;
                         }
@@ -107,6 +98,11 @@
                         .weatherphotos {
                             padding-right: 90px;
                             padding-left: 20px;
+                            border: 5px solid #54bdb4;
+                            border-radius: 10px;
+                            margin: 20px 20px;
+                            padding-top: 30px;
+                            padding-bottom: 30px;
                         }
                         
                         figure>p {
